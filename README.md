@@ -70,7 +70,7 @@ version - The purpose of this element is to express the version of the intellect
 		<extensionWrap>
 			<extensionElement>version</extensionElement>
 			<extensionValue>Hulu Version</extensionValue>
-<extensionAuthorityUsed>EBUCore</extensionAuthorityUsed>
+			<extensionAuthorityUsed>EBUCore</extensionAuthorityUsed>
 		</extensionWrap>
 
 The schema team found that several of the issues raised on GitHub were caused by confusion over the definition or usage of an element or attribute. Many of these were addressed by changes to the documentation, specifically the element and attribute definitions, which have been completely revised.  Best practice guidelines for nearly all elements have also been added, and will appear on the website alongside definitions. Longer explanations addressing common use cases (e.g. when and how to use extensions) will be provided in blog posts on the updated PBCore website. 
