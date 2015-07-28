@@ -43,17 +43,19 @@ In all of these cases, these attributes are optional, but they will allow users 
 
 Several PBCore elements include attributes -- specifically, the @titleType attribute (for pbcoreTitle), the @subjectType attribute (for pbcoreSubject), and the @affiliation attribute (for pbcoreCreator, pbcoreContributor, and pbcorePublisher) -- for which users also requested the ability to provide the source of the value used to express the type. In future releases of PBCore, the schema could be altered such that these attributes become elements in their own right. However, in order to comply with goal of keeping PBCore 2.1 backwards compatible, this was not possible for 2.1. Therefore, we created several new optional attribute groups for inclusion with the following elements:
 
-for pbcoreTitle: </br>
+**for pbcoreTitle:** </br>
 @titleTypeSource </br>
 @titleTypeRef </br>
 @titleTypeVersion </br>
 @titleTypeAnnotation </br>
-for pbcoreSubject: </br>
+
+**for pbcoreSubject:** </br>
 @subjectTypeSource </br>
 @subjectTypeRef </br>
 @subjectTypeVersion </br>
 @subjectTypeAnnotation </br>
-for creator, contributor and publisher: </br>
+
+**for creator, contributor and publisher:** </br>
 @affiliationSource </br>
 @affiliationRef </br>
 @affiliationVersion </br>
