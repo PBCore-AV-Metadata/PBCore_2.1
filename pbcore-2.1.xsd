@@ -26,16 +26,16 @@
     <!-- the pbcoreCollection root element -->
     <xsd:element name="pbcoreCollection" type="pbcoreCollectionType">
         <xsd:annotation>
-            <xsd:documentation>Definition: This container groups multiple pbcoreDescriptionDocument XML into one
+            <xsd:documentation xml:lang="en">Definition: This container groups multiple pbcoreDescriptionDocument XML into one
             container element to allow for a serialized output. Uses might include API returns or
             other web service output.</xsd:documentation>
-            <xsd:documentation>Best practice: This element is not intended to be equivalent to the archive/library concept of a 'collection.' Please see pbcoreAssetType for information on how PBCore can be used to express information about collections. The element is only applicable to XML expressions of PBCore. This container enables a similar function to RSS; pbcoreCollection would be similar to rss:channel and pbcoreDescription document to rss:item.</xsd:documentation>
+            <xsd:documentation xml:lang="en">Best practice: This element is not intended to be equivalent to the archive/library concept of a 'collection.' Please see pbcoreAssetType for information on how PBCore can be used to express information about collections. The element is only applicable to XML expressions of PBCore. This container enables a similar function to RSS; pbcoreCollection would be similar to rss:channel and pbcoreDescription document to rss:item.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
     <!-- the pbcoreDescriptionDocument root element -->
     <xsd:element name="pbcoreDescriptionDocument" type="pbcoreDescriptionDocumentType">
         <xsd:annotation>
-            <xsd:documentation>Definition: A root XML element for the expression of an individual PBCore record.
+            <xsd:documentation xml:lang="en">Definition: A root XML element for the expression of an individual PBCore record.
             pbcoreDescriptionDocument can be used to express intellectual content only (e.g. a
             series or collection level record with no associated instantiations), or intellectual
             content with one or more instantiations (e.g. an episode of a program with
@@ -46,17 +46,17 @@
     <!-- the pbcoreInstantiationDocument root element -->
     <xsd:element name="pbcoreInstantiationDocument" type="instantiationType">
         <xsd:annotation>
-            <xsd:documentation>Definition: This element is the equivalent of the instantiation element, but used
+            <xsd:documentation xml:lang="en">Definition: This element is the equivalent of the instantiation element, but used
             for the expression of an instantiation record at the root of an XML document. This is
             most commonly used when referenced from other schemas, or if you want to create and
             express a single, stand-alone instantiation.</xsd:documentation>
-            <xsd:documentation>Best practice: This is most commonly used when Intellectual Content (in other words, descriptive metadata) is not expressed using PBCore, but rather another standard such as MODS or Dublin Core.</xsd:documentation>
+            <xsd:documentation xml:lang="en">Best practice: This is most commonly used when Intellectual Content (in other words, descriptive metadata) is not expressed using PBCore, but rather another standard such as MODS or Dublin Core.</xsd:documentation>
         </xsd:annotation>
     </xsd:element>
     <!-- the pbcoreCollectionType -->
     <xsd:complexType name="pbcoreCollectionType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The pbcoreCollectionType allows the addition of attributes that
+            <xsd:documentation xml:lang="en">Definition: The pbcoreCollectionType allows the addition of attributes that
             describe the PBCoreCollection. The attributes define the title, the description, the
             source, the reference and the date of the collection.</xsd:documentation>
         </xsd:annotation>
@@ -109,7 +109,7 @@
     <!-- pbcoreDescriptionDocumentType -->
     <xsd:complexType name="pbcoreDescriptionDocumentType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The defining of the DescriptionDocument allows its use as a single
+            <xsd:documentation xml:lang="en">Definition: The defining of the DescriptionDocument allows its use as a single
             asset or repeated use in the pbcoreCollection.</xsd:documentation>
         </xsd:annotation>
         <xsd:sequence>
@@ -189,7 +189,7 @@
             desired. -->
             <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcoreRelation">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: This element contains the pbcoreRelationType and
+                    <xsd:documentation xml:lang="en">Definition: This element contains the pbcoreRelationType and
                   pbcoreRelationIdentifier elements. In order to properly use these two elements
                   they must be nested with the pbcoreRelation element, and pbcoreRelation must
                   contain both pbcoreRelationType and pbcoreRelationIdentifier if it is
@@ -226,7 +226,7 @@
                       desired, and within it a Spatial or a Temporal coverageType -->
             <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcoreCoverage">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: The pbcoreCoverage element is a container for sub-elements
+                    <xsd:documentation xml:lang="en">Definition: The pbcoreCoverage element is a container for sub-elements
                   'coverage' and 'coverageType'.</xsd:documentation>
                 </xsd:annotation>
                 <xsd:complexType>
@@ -292,7 +292,7 @@
             creatorRole tag is optional. -->
             <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcoreCreator">
                 <xsd:annotation>
-                    <xsd:documentation>The pbcoreCreator element is a container for sub-elements
+                    <xsd:documentation xml:lang="en">The pbcoreCreator element is a container for sub-elements
                   'creator' and 'creatorRole'.</xsd:documentation>
                 </xsd:annotation>
                 <xsd:complexType>
@@ -323,7 +323,7 @@
                       appear inside it.  the contributor role is optional. -->
             <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcoreContributor">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: The pbcoreContributor element is a container for sub-elements
+                    <xsd:documentation xml:lang="en">Definition: The pbcoreContributor element is a container for sub-elements
                   'contributor' and 'contributorRole'.</xsd:documentation>
                 </xsd:annotation>
                 <xsd:complexType>
@@ -356,7 +356,7 @@
                       publisherRole tag is optional. -->
             <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcorePublisher">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: The pbcorePublisher element is a container for sub-elements
+                    <xsd:documentation xml:lang="en">Definition: The pbcorePublisher element is a container for sub-elements
                   'publisher' and 'publisherRole.'</xsd:documentation>
                 </xsd:annotation>
                 <xsd:complexType>
@@ -417,20 +417,20 @@
             <!-- PBCore Part -->
             <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcorePart" type="pbcorePartType">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: The pbcorePart element may be used to split up a single asset so
+                    <xsd:documentation xml:lang="en">Definition: The pbcorePart element may be used to split up a single asset so
                   as to enable the use of all available elements at the pbcoreDescriptionDocument
                   level to describe the intellectual content of individual segments of an asset."
                </xsd:documentation>
-                    <xsd:documentation>Best practice: Splitting up an asset in this way allows for defining and describing segments, stories, episodes or other divisions within the asset, such as individual films in a compilation reel, or distinct segments of a news show when each may have their own titles, creators, publishers, or other specific intellectual content information that does not apply across the whole asset.</xsd:documentation>
+                    <xsd:documentation xml:lang="en">Best practice: Splitting up an asset in this way allows for defining and describing segments, stories, episodes or other divisions within the asset, such as individual films in a compilation reel, or distinct segments of a news show when each may have their own titles, creators, publishers, or other specific intellectual content information that does not apply across the whole asset.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
             <!-- PBCore Extension -->
             <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcoreExtension" type="extensionType">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: Extensions are either a wrapper containing a specific element
+                    <xsd:documentation xml:lang="en">Definition: Extensions are either a wrapper containing a specific element
                   from another standard OR embedded xml containing the
                   extension.</xsd:documentation>
-                    <xsd:documentation>Best practice: Use it to supplement other metadata sub-elements of the PBCore description document in which it appears.</xsd:documentation>
+                    <xsd:documentation xml:lang="en">Best practice: Use it to supplement other metadata sub-elements of the PBCore description document in which it appears.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
             <!-- For Readability - DescriptionDocument sequence end -->
@@ -441,7 +441,7 @@
     <!-- the pbcore instantiationType -->
     <xsd:complexType name="instantiationType">
         <xsd:annotation>
-            <xsd:documentation>Definition: This uses a common structure to allow for a single instantiation or
+            <xsd:documentation xml:lang="en">Definition: This uses a common structure to allow for a single instantiation or
             multiple instantiations within a pbcoreDocumentDescription.</xsd:documentation>
         </xsd:annotation>
         <xsd:sequence>
@@ -465,7 +465,7 @@
             <!-- the pbcore instantiationDimensions -->
             <xsd:element maxOccurs="unbounded" minOccurs="0" name="instantiationDimensions" type="technicalStringType">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: The instantiationDimensions element specifies either the
+                    <xsd:documentation xml:lang="en">Definition: The instantiationDimensions element specifies either the
                   dimensions of a physical instantiation, or the high-level visual dimensions of a
                   digital instantiation.</xsd:documentation>
                     <xsd:documentation xml:lang="en">Best practice: For physical dimensions, usage examples might be 7" for an audio reel. When describing visual dimensions, use this for high-level descriptors such as 1080p. Use the element frameSize to describe the pixel dimensions of a visual resource.</xsd:documentation>
@@ -496,7 +496,7 @@
             <!-- the pbcore instantiationStandard -->
             <xsd:element minOccurs="0" name="instantiationStandard" type="instantiationStandardStringType">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: If the instantiation is a physical item, instantiationStandard
+                    <xsd:documentation xml:lang="en">Definition: If the instantiation is a physical item, instantiationStandard
                   can be used to refer to the broadcast standard of the video signal (e.g. NTSC,
                   PAL), or the audio encoding (e.g. Dolby A, vertical cut). If the instantiation is
                   a digital item, instantiationStandard should be used to express the container
@@ -633,7 +633,7 @@
             <!-- the pbcore instantiationEssenceTrack -->
             <xsd:element maxOccurs="unbounded" minOccurs="0" name="instantiationEssenceTrack" type="essenceTrackType">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: The instantiationEssenceTrack element is an XML container element
+                    <xsd:documentation xml:lang="en">Definition: The instantiationEssenceTrack element is an XML container element
                   that allows for grouping of related essenceTrack elements and their repeated use.
                   Use instantiationEssenceTrack element to describe the individual streams that
                   comprise an instantiation, such as audio, video, timecode,
@@ -646,7 +646,7 @@
             also the relationType must also appear -->
             <xsd:element maxOccurs="unbounded" minOccurs="0" name="instantiationRelation">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: The instantiationRelation element is a container for sub-elements
+                    <xsd:documentation xml:lang="en">Definition: The instantiationRelation element is a container for sub-elements
                   instantiationRelationType and instantiationRelationIdentifier to describe
                   relationships to other instantiations.</xsd:documentation>
                 </xsd:annotation>
@@ -694,7 +694,7 @@
             <!-- the pbcore instantiationPart -->
             <xsd:element name="instantiationPart" type="instantiationType" maxOccurs="unbounded" minOccurs="0">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: InstantiationPart is a container that allows the instantiation to
+                    <xsd:documentation xml:lang="en">Definition: InstantiationPart is a container that allows the instantiation to
                   be split into multiple parts, which can describe the parts of a multi-section
                   instantiation, e.g., a multi-disk DVD or vitagraph record and 35mm reel that are
                   intended for synchronous playback. It contains all of the elements that a
@@ -704,23 +704,23 @@
             <!-- the pbcore instantiationExtension -->
             <xsd:element maxOccurs="unbounded" minOccurs="0" name="instantiationExtension" type="extensionType">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: Extensions are either a wrapper containing a specific element
+                    <xsd:documentation xml:lang="en">Definition: Extensions are either a wrapper containing a specific element
                   from another standard OR embedded xml containing the
                   extension.</xsd:documentation>
-                    <xsd:documentation>Best practice: Use it to supplement other metadata sub-elements of 'instantiationPart' or 'pbcoreInstantiationDocument' in which it appears.</xsd:documentation>
+                    <xsd:documentation xml:lang="en">Best practice: Use it to supplement other metadata sub-elements of 'instantiationPart' or 'pbcoreInstantiationDocument' in which it appears.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
         </xsd:sequence>
         <!-- instantiationStartEndTimeGroup -->
         <xsd:attributeGroup ref="startEndTimeGroup">
             <xsd:annotation>
-                <xsd:documentation>Definition: The instantiation level startEndTimeGroup may be used when there is
+                <xsd:documentation xml:lang="en">Definition: The instantiation level startEndTimeGroup may be used when there is
                a multi-part instantiation and time notation is important. </xsd:documentation>
             </xsd:annotation>
         </xsd:attributeGroup>
         <xsd:attributeGroup ref="sourceVersionGroup">
             <xsd:annotation>
-                <xsd:documentation>Definition: The instantiation level sourceVersionGroup may be used when there is
+                <xsd:documentation xml:lang="en">Definition: The instantiation level sourceVersionGroup may be used when there is
                a multi-part instantiation and notation is important. </xsd:documentation>
             </xsd:annotation>
         </xsd:attributeGroup>
@@ -728,7 +728,7 @@
     <!-- the pbcore instantiation essenceTrackType -->
     <xsd:complexType name="essenceTrackType">
         <xsd:annotation>
-            <xsd:documentation>Definition: This uses a common structure to allow for grouping of the essence
+            <xsd:documentation xml:lang="en">Definition: This uses a common structure to allow for grouping of the essence
             related elements and their repeated use.</xsd:documentation>
         </xsd:annotation>
         <xsd:sequence>
@@ -793,7 +793,7 @@
             <!-- the pbcore instantiation essenceTrackPlaybackSpeed -->
             <xsd:element maxOccurs="1" minOccurs="0" name="essenceTrackPlaybackSpeed" type="technicalStringType">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: The essenceTrackPlaybackSpeed element specifies the rate of units
+                    <xsd:documentation xml:lang="en">Definition: The essenceTrackPlaybackSpeed element specifies the rate of units
                   against time at which the media track should be rendered for human consumption.
                   e.g., 15ips (inches per second).</xsd:documentation>
                 </xsd:annotation>
@@ -878,7 +878,7 @@
             <!-- the pbcore instantiation essenceExtension -->
             <xsd:element maxOccurs="unbounded" minOccurs="0" name="essenceTrackExtension" type="extensionType">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: Extensions are either a wrapper containing a specific element
+                    <xsd:documentation xml:lang="en">Definition: Extensions are either a wrapper containing a specific element
                   from another standard OR embedded xml containing the extension. The
                   essenceTrackExtension element is a container to accomodate track-level metadata
                   from external systems. Use it to supplement other metadata sub-elements of
@@ -891,14 +891,14 @@
     <!-- extensionType -->
     <xsd:complexType name="extensionType">
         <xsd:annotation>
-            <xsd:documentation>Definition: This uses a common structure to allow for the use of multiple,
+            <xsd:documentation xml:lang="en">Definition: This uses a common structure to allow for the use of multiple,
             qualified extensions at the asset, instantiation and essence
             levels.</xsd:documentation>
         </xsd:annotation>
         <xsd:choice>
             <xsd:element maxOccurs="unbounded" minOccurs="1" name="extensionWrap">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: The extensionWrap serves as a container for the elements
+                    <xsd:documentation xml:lang="en">Definition: The extensionWrap serves as a container for the elements
                   extensionElement, extensionValue, and extensionAuthorityUsed.</xsd:documentation>
                 </xsd:annotation>
                 <xsd:complexType>
@@ -940,7 +940,7 @@
     <!-- pbcorePartType -->
     <xsd:complexType name="pbcorePartType">
         <xsd:annotation>
-            <xsd:documentation>Definition: This uses a common structure to allow for the repeating of descriptive
+            <xsd:documentation xml:lang="en">Definition: This uses a common structure to allow for the repeating of descriptive
             sub-documents to define different segments, episodes etc., just as super-element
             'pbcoreDescriptionDocument' can be collected and used to describe higher-level media
             programs.</xsd:documentation>
@@ -949,14 +949,14 @@
             <xsd:extension base="pbcoreDescriptionDocumentType">
                 <xsd:attributeGroup ref="startEndTimeGroup">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: The group of attributes "startTime', 'endTime' and
+                        <xsd:documentation xml:lang="en">Definition: The group of attributes "startTime', 'endTime' and
                      'timeAnnotation' could be used when a there is a multipart asset and time
                      notation is important. </xsd:documentation>
                     </xsd:annotation>
                 </xsd:attributeGroup>
                 <xsd:attributeGroup ref="sourceVersionGroup">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: The group of attributes "source', 'ref', 'version' and
+                        <xsd:documentation xml:lang="en">Definition: The group of attributes "source', 'ref', 'version' and
                      'annotation' could be used when a there is a multipart asset and notation is
                      important. </xsd:documentation>
                     </xsd:annotation>
@@ -967,7 +967,7 @@
     <!-- dateStringType -->
     <xsd:complexType name="dateStringType">
         <xsd:annotation>
-            <xsd:documentation>Definition: This dateStringType allows for the addition of the dateType
+            <xsd:documentation xml:lang="en">Definition: This dateStringType allows for the addition of the dateType
             attribute.</xsd:documentation>
         </xsd:annotation>
         <xsd:simpleContent>
@@ -987,7 +987,7 @@
     <!-- sourceVersionStringType -->
     <xsd:complexType name="sourceVersionStringType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The sourceVersionStringType is used with a number of elements to allow
+            <xsd:documentation xml:lang="en">Definition: The sourceVersionStringType is used with a number of elements to allow
             the attachment of the attributes: source, ref, version and
             annotation.</xsd:documentation>
         </xsd:annotation>
@@ -1000,36 +1000,36 @@
     <!-- requiredSourceVersionStringType -->
     <xsd:complexType name="requiredSourceVersionStringType">
         <xsd:annotation>
-            <xsd:documentation>Definition: This type is the sample as sourceVersionStringType with the addition
+            <xsd:documentation xml:lang="en">Definition: This type is the sample as sourceVersionStringType with the addition
             that the source attribute is required instead of optional.</xsd:documentation>
         </xsd:annotation>
         <xsd:simpleContent>
             <xsd:extension base="xsd:string">
                 <xsd:attribute name="source" type="xsd:string" use="required">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute source provides the name of the authority used to
+                        <xsd:documentation xml:lang="en">Definition: Attribute source provides the name of the authority used to
                      declare the value of the element.</xsd:documentation>
-                        <xsd:documentation>Best practice: Different elements will use the source attribute slightly differently.  For example, identifier source (required) should be the name of the organization, institution, system or namespace that the identifier came from, such as "PBS NOLA Code" or an institutional database identifier.  For other elements, this might be the name of a controlled vocabulary, namespace or authority list, such as Library of Congress Subject Headings.  We recommend a consistent and human readable use.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: Different elements will use the source attribute slightly differently.  For example, identifier source (required) should be the name of the organization, institution, system or namespace that the identifier came from, such as "PBS NOLA Code" or an institutional database identifier.  For other elements, this might be the name of a controlled vocabulary, namespace or authority list, such as Library of Congress Subject Headings.  We recommend a consistent and human readable use.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="ref" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Use attribute ref to supply a source's URI for the value of
+                        <xsd:documentation xml:lang="en">Definition: Use attribute ref to supply a source's URI for the value of
                      the element.</xsd:documentation>
-                        <xsd:documentation>Best practice: Attribute ref can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: Attribute ref can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="version" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute version identifies any version information about the
+                        <xsd:documentation xml:lang="en">Definition: Attribute version identifies any version information about the
                      authority or convention used to express data of this
                      element.</xsd:documentation>
-                        <xsd:documentation>Best practice: can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="annotation" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute annotation includes narrative information intended
+                        <xsd:documentation xml:lang="en">Definition: Attribute annotation includes narrative information intended
                      to clarify the nature of data used in the element.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
@@ -1039,7 +1039,7 @@
     <!-- titleStringType -->
     <xsd:complexType name="titleStringType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The titleStringType allows for the addition of a titleType attribute as
+            <xsd:documentation xml:lang="en">Definition: The titleStringType allows for the addition of a titleType attribute as
             well as the standard sourceVersionGroup attributes and a startEndTimeGroup or
             attributes.</xsd:documentation>
         </xsd:annotation>
@@ -1047,34 +1047,34 @@
             <xsd:extension base="xsd:string">
                 <xsd:attribute name="titleType" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Use the attribute titleType to indicate the type of title
+                        <xsd:documentation xml:lang="en">Definition: Use the attribute titleType to indicate the type of title
                      being assigned to the asset, such as series title, episode title or project
                      title.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="titleTypeSource" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute titleTypeSource provides the name of the authority
+                        <xsd:documentation xml:lang="en">Definition: Attribute titleTypeSource provides the name of the authority
                      used to declare data value of the titleType attribute.</xsd:documentation>
-                        <xsd:documentation>Best practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore vocabulary. We recommend a consistent and human readable use.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore vocabulary. We recommend a consistent and human readable use.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="titleTypeRef" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Use attribute titleTypeRef to supply a source's URI for the
+                        <xsd:documentation xml:lang="en">Definition: Use attribute titleTypeRef to supply a source's URI for the
                      value of the attribute titleTypeSource.</xsd:documentation>
-                        <xsd:documentation>Best practice: Attribute titleTypeRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: Attribute titleTypeRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="titleTypeVersion" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute titleTypeVersion identifies any version information about the authority or convention used to express data of this element.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Definition: Attribute titleTypeVersion identifies any version information about the authority or convention used to express data of this element.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="titleTypeAnnotation" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute titleTypeAnnotation includes narrative information intended to clarify the nature of data used in the element.</xsd:documentation>
-                        <xsd:documentation>Best practice: can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Definition: Attribute titleTypeAnnotation includes narrative information intended to clarify the nature of data used in the element.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attributeGroup ref="sourceVersionGroup"/>
@@ -1085,7 +1085,7 @@
     <!-- subjectStringType -->
     <xsd:complexType name="subjectStringType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The subjectStringType allows for the addition of a subjectType
+            <xsd:documentation xml:lang="en">Definition: The subjectStringType allows for the addition of a subjectType
             attribute as well as the standard sourceVersionGroup attributes and a startEndTimeGroup
             or attributes.</xsd:documentation>
         </xsd:annotation>
@@ -1093,32 +1093,32 @@
             <xsd:extension base="xsd:string">
                 <xsd:attribute name="subjectType" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Use the attribute subjectType to indicate the type of subject
+                        <xsd:documentation xml:lang="en">Definition: Use the attribute subjectType to indicate the type of subject
                 	 being assigned to the attribute subjectType, such as 'topic,' 'personal name,' or
                      'keyword'.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="subjectTypeSource" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute subjectTypeSource provides the name of the authority used to declare the value of the attribute subjectType.</xsd:documentation>
-                        <xsd:documentation>Best practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore vocabulary. We recommend a consistent and human readable use.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Definition: Attribute subjectTypeSource provides the name of the authority used to declare the value of the attribute subjectType.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore vocabulary. We recommend a consistent and human readable use.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="subjectTypeRef" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Use attribute subjectTypeRef to supply a source's URI for the value of the attribute subjectType.</xsd:documentation>
-                        <xsd:documentation>Best practice: Attribute subjectTypeRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Definition: Use attribute subjectTypeRef to supply a source's URI for the value of the attribute subjectType.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: Attribute subjectTypeRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="subjectTypeVersion" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute subjectTypeVersion identifies any version information about the authority or convention used to express data of the attribute subjectType.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Definition: Attribute subjectTypeVersion identifies any version information about the authority or convention used to express data of the attribute subjectType.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="subjectTypeAnnotation" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute subjectTypeAnnotation includes narrative information intended to clarify the nature of data used in the attribute subjectType.</xsd:documentation>
-                        <xsd:documentation>Best practice: Can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Definition: Attribute subjectTypeAnnotation includes narrative information intended to clarify the nature of data used in the attribute subjectType.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: Can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attributeGroup ref="sourceVersionGroup"/>
@@ -1129,7 +1129,7 @@
     <!-- descriptionStringType -->
     <xsd:complexType name="descriptionStringType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The descriptionType is a complex group of attributes that help define
+            <xsd:documentation xml:lang="en">Definition: The descriptionType is a complex group of attributes that help define
             the description type, as well as allowing for descriptions of segments and relevant
             times.</xsd:documentation>
         </xsd:annotation>
@@ -1137,75 +1137,75 @@
             <xsd:extension base="xsd:string">
                 <xsd:attribute name="descriptionType" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Use the attribute descriptionType to indicate the type of
+                        <xsd:documentation xml:lang="en">Definition: Use the attribute descriptionType to indicate the type of
                      description being assigned to the element, such as 'abstract,' 'summary,' or
                      'physical description.'</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="descriptionTypeSource" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute descriptionTypeSource provides the name of the
+                        <xsd:documentation xml:lang="en">Definition: Attribute descriptionTypeSource provides the name of the
                      authority used to declare data value of the attribute
                      descriptionType.</xsd:documentation>
-                        <xsd:documentation>Best practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore recommended vocabulary.  We recommend a consistent and human readable use.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore recommended vocabulary.  We recommend a consistent and human readable use.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="descriptionTypeRef" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Use attribute descriptionTypeRef to supply a source's URI for
+                        <xsd:documentation xml:lang="en">Definition: Use attribute descriptionTypeRef to supply a source's URI for
                      the value of the attribute descriptionType.</xsd:documentation>
-                        <xsd:documentation>Best practice: Attribute descriptionTypeRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: Attribute descriptionTypeRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="descriptionTypeVersion" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute descriptionTypeVersion identifies any version
+                        <xsd:documentation xml:lang="en">Definition: Attribute descriptionTypeVersion identifies any version
                      information about the authority or convention used to express data of the
                      attribute descriptionType.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="descriptionTypeAnnotation" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute descriptionTypeAnnotation includes narrative
+                        <xsd:documentation xml:lang="en">Definition: Attribute descriptionTypeAnnotation includes narrative
                      information intended to clarify the nature of data used in the
                      element.</xsd:documentation>
-                        <xsd:documentation>Best practice: can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="segmentType" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Use the element segmentType to define the type of content
+                        <xsd:documentation xml:lang="en">Definition: Use the element segmentType to define the type of content
                      contained in a segment.</xsd:documentation>
-                        <xsd:documentation>Best practice: We recommend using description and descriptionType instead of segmentType.'</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: We recommend using description and descriptionType instead of segmentType.'</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="segmentTypeSource" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute segmentTypeSource provides the name of the authority
+                        <xsd:documentation xml:lang="en">Definition: Attribute segmentTypeSource provides the name of the authority
                      used to declare data value of the attribute segmentType.</xsd:documentation>
-                        <xsd:documentation>Best practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore recommended vocabulary.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore recommended vocabulary.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="segmentTypeRef" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Use attribute segmentTypeRef to supply a source's URI for the
+                        <xsd:documentation xml:lang="en">Definition: Use attribute segmentTypeRef to supply a source's URI for the
                      value of the attribute segmentType.</xsd:documentation>
-                        <xsd:documentation>Best practice: Attribute segmentTypeRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: Attribute segmentTypeRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="segmentTypeVersion" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute segmentTypeVersion identifies any version
+                        <xsd:documentation xml:lang="en">Definition: Attribute segmentTypeVersion identifies any version
                      information about the authority or convention used to express data of the
                      attribute segmentType.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="segmentTypeAnnotation" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute segmentTypeAnnotation includes narrative information
+                        <xsd:documentation xml:lang="en">Definition: Attribute segmentTypeAnnotation includes narrative information
                      intended to clarify the nature of data used in the attribute
                      segmentType.</xsd:documentation>
-                        <xsd:documentation>Best practice: Can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: Can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attributeGroup ref="sourceVersionGroup"/>
@@ -1216,7 +1216,7 @@
     <!-- sourceVersionStartEndStringType -->
     <xsd:complexType name="sourceVersionStartEndStringType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The sourceVersionStartEndStringType adds attributes that define the
+            <xsd:documentation xml:lang="en">Definition: The sourceVersionStartEndStringType adds attributes that define the
             source of the string with the option of time related attributes</xsd:documentation>
         </xsd:annotation>
         <xsd:simpleContent>
@@ -1229,37 +1229,37 @@
     <!-- affiliatedStringType -->
     <xsd:complexType name="affiliatedStringType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The affiliatedStringType adds attributes of affiliation and time
+            <xsd:documentation xml:lang="en">Definition: The affiliatedStringType adds attributes of affiliation and time
             relevance.</xsd:documentation>
         </xsd:annotation>
         <xsd:simpleContent>
             <xsd:extension base="xsd:string">
                 <xsd:attribute name="affiliation" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Use this attribute to indicate the organization with which an agent is associated or affiliated.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Definition: Use this attribute to indicate the organization with which an agent is associated or affiliated.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="affiliationSource" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute affiliationSource provides the name of the authority used to declare the value of the attribute affiliation.</xsd:documentation>
-                        <xsd:documentation>Best practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore recommended vocabulary.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Definition: Attribute affiliationSource provides the name of the authority used to declare the value of the attribute affiliation.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore recommended vocabulary.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="affiliationRef" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Use attribute affiliationRef to supply a source's URI for the value of the attribute affiliation.</xsd:documentation>
-                        <xsd:documentation>Best practice: Attribute affiliationRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Definition: Use attribute affiliationRef to supply a source's URI for the value of the attribute affiliation.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: Attribute affiliationRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="affiliationVersion" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute affiliationVersion identifies any version information about the authority or convention used to express data of the attribute affiliation.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Definition: Attribute affiliationVersion identifies any version information about the authority or convention used to express data of the attribute affiliation.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attribute name="affiliationAnnotation" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute affiliationAnnotation includes narrative information intended to clarify the nature of data used in the attribute affiliation.</xsd:documentation>
-                        <xsd:documentation>Best practice: can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Definition: Attribute affiliationAnnotation includes narrative information intended to clarify the nature of data used in the attribute affiliation.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attributeGroup ref="sourceVersionGroup"/>
@@ -1270,14 +1270,14 @@
     <!-- contributorStringType -->
     <xsd:complexType name="contributorStringType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The contributorString helps define the portrayal role as well as the
+            <xsd:documentation xml:lang="en">Definition: The contributorString helps define the portrayal role as well as the
             general source and version group attributes.</xsd:documentation>
         </xsd:annotation>
         <xsd:simpleContent>
             <xsd:extension base="xsd:string">
                 <xsd:attribute name="portrayal" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Attribute portrayal identifies any roles or characters
+                        <xsd:documentation xml:lang="en">Definition: Attribute portrayal identifies any roles or characters
                      performed by a contributor.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
@@ -1288,16 +1288,16 @@
     <!-- technicalStringType  -->
     <xsd:complexType name="technicalStringType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The technicalStringType add the attributes of unitsOfMeasure and
+            <xsd:documentation xml:lang="en">Definition: The technicalStringType add the attributes of unitsOfMeasure and
             annotation.</xsd:documentation>
         </xsd:annotation>
         <xsd:simpleContent>
             <xsd:extension base="xsd:string">
                 <xsd:attribute name="unitsOfMeasure" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Defines the unit used in the containing element, e.g. pixels,
+                        <xsd:documentation xml:lang="en">Definition: Defines the unit used in the containing element, e.g. pixels,
                      GB, Mb/s, ips, fps, kHz, inches, lines, dpi.</xsd:documentation>
-                        <xsd:documentation>Best practice: We recommend standardizing the notation that is most widely recognized in your institution and using with consistency.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: We recommend standardizing the notation that is most widely recognized in your institution and using with consistency.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attributeGroup ref="sourceVersionGroup"/>
@@ -1307,16 +1307,16 @@
     <!-- instantiationDigitalStringType -->
     <xsd:complexType name="instantiationStandardStringType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The instantiationStandardStringType allows for the addition of a
+            <xsd:documentation xml:lang="en">Definition: The instantiationStandardStringType allows for the addition of a
             profile attribute along with the sourceVersionGroup.</xsd:documentation>
         </xsd:annotation>
         <xsd:simpleContent>
             <xsd:extension base="xsd:string">
                 <xsd:attribute name="profile" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Use the attribute @profile to further quantify the profile of
+                        <xsd:documentation xml:lang="en">Definition: Use the attribute @profile to further quantify the profile of
                      the container format (e.g. Op1a).</xsd:documentation>
-                        <xsd:documentation>Best practice: Can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
+                        <xsd:documentation xml:lang="en">Best practice: Can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
                 <xsd:attributeGroup ref="sourceVersionGroup"/>
@@ -1326,14 +1326,14 @@
     <!-- annotationStringType  -->
     <xsd:complexType name="annotationStringType">
         <xsd:annotation>
-            <xsd:documentation>Definition: This stringType added an annotationType attribute and a
+            <xsd:documentation xml:lang="en">Definition: This stringType added an annotationType attribute and a
             reference.</xsd:documentation>
         </xsd:annotation>
         <xsd:simpleContent>
             <xsd:extension base="xsd:string">
                 <xsd:attribute name="annotationType" type="xsd:string">
                     <xsd:annotation>
-                        <xsd:documentation>Definition: Use the attribute annotationType to indicate the type of
+                        <xsd:documentation xml:lang="en">Definition: Use the attribute annotationType to indicate the type of
                      annotation being assigned to the asset, such as a comment, clarification, or
                      cataloging note.</xsd:documentation>
                     </xsd:annotation>
@@ -1345,7 +1345,7 @@
     <!-- rightsSummaryType -->
     <xsd:complexType name="rightsSummaryType">
         <xsd:annotation>
-            <xsd:documentation>Definition: This same structure allows the use of rights at the asset level and the
+            <xsd:documentation xml:lang="en">Definition: This same structure allows the use of rights at the asset level and the
             instantiation level. The rights can be expressed as a summary or a link or an embedded
             XML record. These can also contain time relations.</xsd:documentation>
         </xsd:annotation>
@@ -1358,17 +1358,17 @@
                   restricted in some way. If dates, times and availability periods are associated
                   with a right, include them. End user permissions, constraints and obligations may
                   also be identified as needed.</xsd:documentation>
-                    <xsd:documentation>Best practice: For rights information that applies to the asset as a whole, use this element within the container pbcoreRightsSummary.  For rights information that is specific to an instantiation of an asset, use it within the container instantiationRights.</xsd:documentation>
+                    <xsd:documentation xml:lang="en">Best practice: For rights information that applies to the asset as a whole, use this element within the container pbcoreRightsSummary.  For rights information that is specific to an instantiation of an asset, use it within the container instantiationRights.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
             <xsd:element maxOccurs="1" minOccurs="0" name="rightsLink" type="rightsLinkType">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: A URI pointing to a declaration of rights.</xsd:documentation>
+                    <xsd:documentation xml:lang="en">Definition: A URI pointing to a declaration of rights.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
             <xsd:element name="rightsEmbedded" type="embeddedType" maxOccurs="1" minOccurs="0">
                 <xsd:annotation>
-                    <xsd:documentation>Definition: The rightsEmbedded element allows the inclusion of xml from
+                    <xsd:documentation xml:lang="en">Definition: The rightsEmbedded element allows the inclusion of xml from
                   another rights standard, e.g. ODRL, METS, etc. The included XML then defines the
                   rights for the PBCore asset and/or PBCore instantiation.</xsd:documentation>
                 </xsd:annotation>
@@ -1379,7 +1379,7 @@
     <!-- rightsLinkType -->
     <xsd:complexType name="rightsLinkType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The rightsLinkType allows for the addition of an annotation attribute
+            <xsd:documentation xml:lang="en">Definition: The rightsLinkType allows for the addition of an annotation attribute
             to the rightsLink.</xsd:documentation>
         </xsd:annotation>
         <xsd:simpleContent>
@@ -1391,7 +1391,7 @@
     <!-- embeddedType -->
     <xsd:complexType name="embeddedType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The embeddedType allows for the addition of an annotation attribute to
+            <xsd:documentation xml:lang="en">Definition: The embeddedType allows for the addition of an annotation attribute to
             the embeddedType.</xsd:documentation>
         </xsd:annotation>
         <xsd:sequence>
@@ -1402,7 +1402,7 @@
     <!-- threeLetterStringType -->
     <xsd:complexType name="threeLetterStringType">
         <xsd:annotation>
-            <xsd:documentation>Definition: The threeletterStringType adds the sourceVersionGroup to
+            <xsd:documentation xml:lang="en">Definition: The threeletterStringType adds the sourceVersionGroup to
             threelettercode for source references.</xsd:documentation>
         </xsd:annotation>
         <xsd:simpleContent>
@@ -1414,7 +1414,7 @@
     <!-- threelettercode Algorithm -->
     <xsd:simpleType name="threeLetterCode">
         <xsd:annotation>
-            <xsd:documentation>Definition: This controls the language element to insure the use of three letter
+            <xsd:documentation xml:lang="en">Definition: This controls the language element to insure the use of three letter
             codes.</xsd:documentation>
         </xsd:annotation>
         <xsd:restriction base="xsd:string">
@@ -1425,61 +1425,61 @@
     <!-- sourceVersionGroup -->
     <xsd:attributeGroup name="sourceVersionGroup">
         <xsd:annotation>
-            <xsd:documentation>Definition: The grouping of attributes: source, reference, version and
+            <xsd:documentation xml:lang="en">Definition: The grouping of attributes: source, reference, version and
             annotation.</xsd:documentation>
         </xsd:annotation>
         <xsd:attribute name="source" type="xsd:string" use="optional">
             <xsd:annotation>
-                <xsd:documentation>Definition: Attribute source provides the name of the authority used to declare
+                <xsd:documentation xml:lang="en">Definition: Attribute source provides the name of the authority used to declare
                the value of the element.</xsd:documentation>
-                <xsd:documentation>Best practice: Different elements will use the source attribute slightly differently.  For example, identifier source (required) should be the name of the organization, institution, system or namespace that the identifier came from, such as "PBS NOLA Code" or an institutional database identifier.  For other elements, this might be the name of a controlled vocabulary, namespace or authority list, such as Library of Congress Subject Headings.  We recommend a consistent and human readable use.</xsd:documentation>
+                <xsd:documentation xml:lang="en">Best practice: Different elements will use the source attribute slightly differently.  For example, identifier source (required) should be the name of the organization, institution, system or namespace that the identifier came from, such as "PBS NOLA Code" or an institutional database identifier.  For other elements, this might be the name of a controlled vocabulary, namespace or authority list, such as Library of Congress Subject Headings.  We recommend a consistent and human readable use.</xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
         <xsd:attribute name="ref" type="xsd:string">
             <xsd:annotation>
-                <xsd:documentation>Definition: Use attribute ref to supply a source's URI for the value of the
+                <xsd:documentation xml:lang="en">Definition: Use attribute ref to supply a source's URI for the value of the
                element.</xsd:documentation>
-                <xsd:documentation>Best practice: Attribute ref can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
+                <xsd:documentation xml:lang="en">Best practice: Attribute ref can be used to point to a term in a controlled vocabulary, or a URI associated with a source.</xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
         <xsd:attribute name="version" type="xsd:string">
             <xsd:annotation>
-                <xsd:documentation>Definition: Attribute version identifies any version information about the
+                <xsd:documentation xml:lang="en">Definition: Attribute version identifies any version information about the
                authority or convention used to express data of this element.</xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
         <xsd:attribute name="annotation" type="xsd:string">
             <xsd:annotation>
-                <xsd:documentation>Definition: Attribute annotation includes narrative information intended to
+                <xsd:documentation xml:lang="en">Definition: Attribute annotation includes narrative information intended to
                clarify the nature of data used in the element.</xsd:documentation>
-                <xsd:documentation>Best practice: can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
+                <xsd:documentation xml:lang="en">Best practice: can be used as a notes field to include any additional information about the element or associated attributes.</xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
     </xsd:attributeGroup>
     <!-- startEndTimeGroup -->
     <xsd:attributeGroup name="startEndTimeGroup">
         <xsd:annotation>
-            <xsd:documentation>Definition: The grouping of attributes: startTime, endTime and
+            <xsd:documentation xml:lang="en">Definition: The grouping of attributes: startTime, endTime and
             timeAnnotation.</xsd:documentation>
         </xsd:annotation>
         <xsd:attribute name="startTime" type="xsd:string">
             <xsd:annotation>
-                <xsd:documentation>Definition: Attribute startTime combines with the endTime attribute to define a
+                <xsd:documentation xml:lang="en">Definition: Attribute startTime combines with the endTime attribute to define a
                specific media segment within a broader timeline of an asset and/or
                instantiation.</xsd:documentation>
-                <xsd:documentation>Best practice: This is a free text attribute and can be applied at the asset or instantiation level.  When used at the asset level, it may be used to talk generally about the start/end time of a segment (e.g. "30 minutes"), or by providing a timestamp to a specific point in an instantiation.  If you're doing that for element at the asset level, we suggest referencing the instantiation ID you are referring to in timeAnnotation.  One example would be if a six-hour long tape was broken into multiple programs, and each instantiation might have its start time labeled as when the instantiation began in the timeline of the broader tape.  Another example for this usage might be a digital file created from a VHS tape that contains multiple segments.  In the digital copy, color bars are removed from the beginning, and black from the end of the digital instantiation.  Time references referring to the segments on the physical VHS are no longer relevant; therefore it's important to tie start and end time references to a specific instantiation, e.g. use the asset ID and timestamp.</xsd:documentation>
+                <xsd:documentation xml:lang="en">Best practice: This is a free text attribute and can be applied at the asset or instantiation level.  When used at the asset level, it may be used to talk generally about the start/end time of a segment (e.g. "30 minutes"), or by providing a timestamp to a specific point in an instantiation.  If you're doing that for element at the asset level, we suggest referencing the instantiation ID you are referring to in timeAnnotation.  One example would be if a six-hour long tape was broken into multiple programs, and each instantiation might have its start time labeled as when the instantiation began in the timeline of the broader tape.  Another example for this usage might be a digital file created from a VHS tape that contains multiple segments.  In the digital copy, color bars are removed from the beginning, and black from the end of the digital instantiation.  Time references referring to the segments on the physical VHS are no longer relevant; therefore it's important to tie start and end time references to a specific instantiation, e.g. use the asset ID and timestamp.</xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
         <xsd:attribute name="endTime" type="xsd:string">
             <xsd:annotation>
-                <xsd:documentation>Definition: Attribute endTime combines with a similar value in the startTime
+                <xsd:documentation xml:lang="en">Definition: Attribute endTime combines with a similar value in the startTime
                attribute to define a specific media segment within a broader timeline of an asset
                and/or instantiation.</xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
         <xsd:attribute name="timeAnnotation" type="xsd:string">
             <xsd:annotation>
-                <xsd:documentation>Definition: Attribute timeAnnotation includes narrative information intended to
+                <xsd:documentation xml:lang="en">Definition: Attribute timeAnnotation includes narrative information intended to
                clarify any time-oriented nature of data used in the element.</xsd:documentation>
             </xsd:annotation>
         </xsd:attribute>
