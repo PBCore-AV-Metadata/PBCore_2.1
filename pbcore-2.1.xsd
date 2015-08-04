@@ -1094,7 +1094,7 @@
                 <xsd:attribute name="subjectType" type="xsd:string">
                     <xsd:annotation>
                         <xsd:documentation xml:lang="en">Definition: Use the attribute subjectType to indicate the type of subject
-                	 being assigned to the attribute subjectType, such as 'topic,' 'personal name,' or
+                     being assigned to the attribute subjectType, such as 'topic,' 'personal name,' or
                      'keyword'.</xsd:documentation>
                     </xsd:annotation>
                 </xsd:attribute>
