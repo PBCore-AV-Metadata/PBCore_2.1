@@ -7,20 +7,20 @@
       <xsd:documentation xml:lang="en">This is the PBCore version 2.1draft3 XML schema. All element
          descriptions can be found at http://www.pbcore.org</xsd:documentation>
    </xsd:annotation>
-   
+
     <!--  Change Log:
    20150717
    - Added the 'source, ref, version, annotation' collection of attributes to all elements where they are not yet
-   currently available. 
+   currently available.
    - Added supplemental attribute groups 'titleTypeSource, titleTypeRef,
    titleTypeVersion, titleTypeAnnotation'; 'subjectTypeSource, subjectTypeRef,
    subjectTypeVersion, subjectTypeAnnotation'; 'descriptionTypeSource, descriptionTypeRef,
    descriptionTypeVersion, descriptionTypeAnnotation'; 'segmentTypeSource, segmentTypeRef,
    segmentTypeVersion, segmentTypeAnnotation'; 'affiliationSource, affiliationRef,
-   affiliationVersion, affiliationAnnotation'; and 'partTypeSource, partTypeRef, partTypeVersion, and 
-   partTypeAnnotation' to allow for the sourcing of information in the 'titleType,' 'subjectType,' 
-   'descriptionType,' 'segmentType', 'affiliation' and 'partType' attributes. 
-   - Updated descriptions for all elements and attributes. 
+   affiliationVersion, affiliationAnnotation'; and 'partTypeSource, partTypeRef, partTypeVersion, and
+   partTypeAnnotation' to allow for the sourcing of information in the 'titleType,' 'subjectType,'
+   'descriptionType,' 'segmentType', 'affiliation' and 'partType' attributes.
+   - Updated descriptions for all elements and attributes.
    -->
 
    <!-- the pbcoreCollection root element -->
@@ -823,7 +823,7 @@
                   construction of document indices to facilitate searching and access; or for
                   efficient distribution of the information across data networks with differing
                   bandwidths or pipeline capacities. Human-readable encoding value should be placed
-                  here. Use @ref to identify the codec ID.</xsd:documentation>          
+                  here. Use @ref to identify the codec ID.</xsd:documentation>
                <xsd:documentation xml:lang="en">Best practice: Use @source to describe the type of encoding reference used, such as fourcc.  In @ref, use a URI/URL from the source to identify the codec utilized by its container format.</xsd:documentation>
             </xsd:annotation>
          </xsd:element>
