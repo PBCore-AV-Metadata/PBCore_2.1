@@ -386,7 +386,7 @@
             <xsd:element name="pbcoreRightsSummary" type="rightsSummaryType" maxOccurs="unbounded" minOccurs="0">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: The element pbcoreRightsSummary is a container for
-                  sub-elements &#x2018;rightsSummary&#x2019;, &#x2018;rightsLink&#x2019; and &#x2018;rightsEmbedded&#x2019; used to describe
+                  sub-elements 'rightsSummary', 'rightsLink', and 'rightsEmbedded' used to describe
                   Rights for the asset.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
@@ -508,7 +508,7 @@
             <xsd:element maxOccurs="1" minOccurs="1" name="instantiationLocation" type="sourceVersionStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: instantiationLocation may contain information about
-                  a specific location for an instantiation, such as an organization&#x2019;s name,
+                  a specific location for an instantiation, such as an organization's name,
                   departmental name, shelf ID and contact information. The instantiationLocation for
                   a digital file should include domain, path or URI to the
                   file.</xsd:documentation>
@@ -626,8 +626,8 @@
                   (Supplementary Audio Program), ClosedCaptions, OpenCaptions, Subtitles, Language
                   Dubs, and Transcripts. For each instance of available alternativeModes, the mode
                   and its associated language should be identified together, if applicable. Examples
-                  include &#x2018;SAP in English,&#x2019; &#x2018;SAP in Spanish,&#x2019; &#x2018;Subtitle in French,&#x2019; &#x2018;OpenCaption in
-                  Arabic.&#x2019;</xsd:documentation>
+                  include 'SAP in English,' 'SAP in Spanish,' 'Subtitle in French,' 'OpenCaption in
+                  Arabic.'</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
             <!-- the pbcore instantiationEssenceTrack -->
@@ -707,7 +707,7 @@
                     <xsd:documentation>Definition: Extensions are either a wrapper containing a specific element
                   from another standard OR embedded xml containing the
                   extension.</xsd:documentation>
-                    <xsd:documentation>Best practice: Use it to supplement other metadata sub-elements of &#x2018;instantiationPart&#x2019; or &#x2018;pbcoreInstantiationDocument&#x2019; in which it appears.</xsd:documentation>
+                    <xsd:documentation>Best practice: Use it to supplement other metadata sub-elements of 'instantiationPart' or 'pbcoreInstantiationDocument' in which it appears.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
         </xsd:sequence>
@@ -862,7 +862,7 @@
             <xsd:element maxOccurs="1" minOccurs="0" name="essenceTrackLanguage" type="threeLetterStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: essenceTrackLanguage identifies the primary
-                  language of the tracks&#x2019; audio or text.</xsd:documentation>
+                  language of the tracks' audio or text.</xsd:documentation>
                     <xsd:documentation xml:lang="en">Best practice: Alternative audio or text tracks and their associated languages should be identified using the element alternativeModes.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
