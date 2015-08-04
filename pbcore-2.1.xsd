@@ -9,7 +9,7 @@
         <xsd:documentation xml:lang="en">This is the PBCore version 2.1draft3 XML schema. All element
          descriptions can be found at http://www.pbcore.org</xsd:documentation>
     </xsd:annotation>
-    <!--  Change Log:
+    <!-- Change Log:
     20150717
     - Added the 'source, ref, version, annotation' collection of attributes to all elements where they are not yet
     currently available.
@@ -462,7 +462,7 @@
                     <xsd:documentation xml:lang="en">Best practice: Best practice is to use ISO 8601 or some other date/time standard if possible.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!-- the pbcore instantiationDimensions-->
+            <!-- the pbcore instantiationDimensions -->
             <xsd:element maxOccurs="unbounded" minOccurs="0" name="instantiationDimensions" type="technicalStringType">
                 <xsd:annotation>
                     <xsd:documentation>Definition: The instantiationDimensions element specifies either the
@@ -471,7 +471,7 @@
                     <xsd:documentation xml:lang="en">Best practice: For physical dimensions, usage examples might be 7" for an audio reel. When describing visual dimensions, use this for high-level descriptors such as 1080p. Use the element frameSize to describe the pixel dimensions of a visual resource.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!-- the pbcore instantiationPhysical-->
+            <!-- the pbcore instantiationPhysical -->
             <xsd:element maxOccurs="1" minOccurs="0" name="instantiationPhysical" type="sourceVersionStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: Use the element instantiationPhysical to identify
@@ -482,7 +482,7 @@
                     <xsd:documentation xml:lang="en">Best practice: PBCore provides a controlled vocabulary for media objects, though any controlled vocabulary can be used as long as it is referenced.   For digital storage carriers that contain portable file-based media, such as data CDs, LTO tapes or hard drives, use instantiationDigital to convey the mime type of the file instead of describing the carrier.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!-- the pbcore instantiationDigital-->
+            <!-- the pbcore instantiationDigital -->
             <xsd:element maxOccurs="1" minOccurs="0" name="instantiationDigital" type="sourceVersionStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: Use the element instantiationDigital to identify
@@ -493,7 +493,7 @@
                     <xsd:documentation xml:lang="en">Best practice: InstantiationDigital should only be used to describe the MIME type of the digital file itself.  There are multiple options to convey more information about the storage medium or location of the digital file, which are discussed in more detail on the PBCore site.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!-- the pbcore instantiationStandard-->
+            <!-- the pbcore instantiationStandard -->
             <xsd:element minOccurs="0" name="instantiationStandard" type="instantiationStandardStringType">
                 <xsd:annotation>
                     <xsd:documentation>Definition: If the instantiation is a physical item, instantiationStandard
@@ -504,7 +504,7 @@
                     <xsd:documentation xml:lang="en">Best practice: While the usage described in the definition is best practice for 2.1, this usage is likely to change if new elements are added for PBCore 3.0.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!-- the pbcore instantiationLocation-->
+            <!-- the pbcore instantiationLocation -->
             <xsd:element maxOccurs="1" minOccurs="1" name="instantiationLocation" type="sourceVersionStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: instantiationLocation may contain information about
@@ -535,7 +535,7 @@
                   "Photocopy.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!--  the pbcore instantiationFileSize -->
+            <!-- the pbcore instantiationFileSize -->
             <xsd:element maxOccurs="1" minOccurs="0" name="instantiationFileSize" type="technicalStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: This element indicates the file size of a digital
@@ -544,7 +544,7 @@
                   attribute.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!--  the pbcore instantiationTimeStart-->
+            <!-- the pbcore instantiationTimeStart -->
             <xsd:element maxOccurs="1" minOccurs="0" name="instantiationTimeStart" type="sourceVersionStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: This element describes the point at which playback
@@ -554,7 +554,7 @@
                   S.mmm.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!--  the pbcore instantiationDuration-->
+            <!-- the pbcore instantiationDuration -->
             <xsd:element maxOccurs="1" minOccurs="0" name="instantiationDuration" type="sourceVersionStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: The element instantiationDuration provides a
@@ -563,7 +563,7 @@
                   HH:MM:SS[:|;]FF or HH:MM:SS.mmm or S.mmm.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!--  the pbcore instantiationDataRate-->
+            <!-- the pbcore instantiationDataRate -->
             <xsd:element maxOccurs="1" minOccurs="0" name="instantiationDataRate" type="technicalStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: The element instantiationDataRate expresses the
@@ -584,7 +584,7 @@
                   throughout the instantiation.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!--  the pbcore instantiationTracks-->
+            <!-- the pbcore instantiationTracks -->
             <xsd:element maxOccurs="1" minOccurs="0" name="instantiationTracks" type="sourceVersionStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: The element instantiationTracks is simply intended
@@ -596,7 +596,7 @@
                     <xsd:documentation xml:lang="en">Best practice:  Best practices is to use essenceTracks, as this element has been deprecated.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!--  the pbcore instantiationChannelConfiguration-->
+            <!-- the pbcore instantiationChannelConfiguration -->
             <xsd:element maxOccurs="1" minOccurs="0" name="instantiationChannelConfiguration" type="sourceVersionStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: The element instantiationChannelConfiguration is
@@ -757,7 +757,7 @@
                   format.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!--  the pbcore instantiation essenceTrackEncoding -->
+            <!-- the pbcore instantiation essenceTrackEncoding -->
             <xsd:element maxOccurs="1" minOccurs="0" name="essenceTrackEncoding" type="sourceVersionStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: The element essenceTrackEncoding identifies how the
@@ -771,7 +771,7 @@
                     <xsd:documentation xml:lang="en">Best practice: Use @source to describe the type of encoding reference used, such as fourcc.  In @ref, use a URI/URL from the source to identify the codec utilized by its container format.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!--  the pbcore instantiation essenceTrackDataRate-->
+            <!-- the pbcore instantiation essenceTrackDataRate -->
             <xsd:element maxOccurs="1" minOccurs="0" name="essenceTrackDataRate" type="technicalStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: The essenceTrackDataRate measures the amount of
@@ -790,7 +790,7 @@
                     <xsd:documentation xml:lang="en">Best practice: Example: 1920x1080.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!--  the pbcore instantiation essenceTrackPlaybackSpeed-->
+            <!-- the pbcore instantiation essenceTrackPlaybackSpeed -->
             <xsd:element maxOccurs="1" minOccurs="0" name="essenceTrackPlaybackSpeed" type="technicalStringType">
                 <xsd:annotation>
                     <xsd:documentation>Definition: The essenceTrackPlaybackSpeed element specifies the rate of units
@@ -838,7 +838,7 @@
                   moving image.</xsd:documentation>
                 </xsd:annotation>
             </xsd:element>
-            <!--  the pbcore instantiation essenceTrackTimeStart-->
+            <!-- the pbcore instantiation essenceTrackTimeStart -->
             <xsd:element maxOccurs="1" minOccurs="0" name="essenceTrackTimeStart" type="sourceVersionStringType">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: The element essenceTrackTimeStart provides a time
