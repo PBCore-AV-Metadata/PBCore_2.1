@@ -1,0 +1,7 @@
+<pbcoreDescriptionDocument xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html http://pbcore.org/xsd/pbcore-2.1.xsd" >
+    <pbcoreIdentifier source="MCU">MCU_a0567</pbcoreIdentifier>
+    <pbcoreTitle titleType="Main" titleTypeSource="pbcoreTitle/titleType Controlled Vocabulary" titleTypeRef="http://metadataregistry.org/concept/show/id/1773.html">Death Is A Poor Man's Doctor</pbcoreTitle>
+    <pbcoreDescription>Interviews from Detroit musicians</pbcoreDescription>
+</pbcoreDescriptionDocument>
