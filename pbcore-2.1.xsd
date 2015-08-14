@@ -26,7 +26,7 @@
    <!-- the pbcoreCollection root element -->
    <xsd:element name="pbcoreCollection" type="pbcoreCollectionType">
       <xsd:annotation>
-         <xsd:documentation>"Definition: This container groups multiple pbcoreDescriptionDocument XML into one
+         <xsd:documentation>"Definition: The pbcoreCollection element groups multiple pbcoreDescriptionDocument XML into one
             container element to allow for a serialized output. Uses might include API returns or
             other web service output."</xsd:documentation>
          <xsd:documentation>"Best practice: This element is not intended to be equivalent to the archive/library concept of a 'collection.' Please see pbcoreAssetType for information on how PBCore can be used to express information about collections. The element is only applicable to XML expressions of PBCore. This container enables a similar function to RSS; pbcoreCollection would be similar to rss:channel and pbcoreDescription document to rss:item."</xsd:documentation>
@@ -36,7 +36,7 @@
    <!-- the pbcoreDescriptionDocument root element -->
    <xsd:element name="pbcoreDescriptionDocument" type="pbcoreDescriptionDocumentType">
       <xsd:annotation>
-         <xsd:documentation>"Definition: A root XML element for the expression of an individual PBCore record.
+         <xsd:documentation>"Definition: the pbcoreDescriptionDocument element is a root XML element for the expression of an individual PBCore record.
             pbcoreDescriptionDocument can be used to express intellectual content only (e.g. a
             series or collection level record with no associated instantiations), or intellectual
             content with one or more instantiations (e.g. an episode of a program with
@@ -48,7 +48,7 @@
    <!-- the pbcoreInstantiationDocument root element -->
    <xsd:element name="pbcoreInstantiationDocument" type="instantiationType">
       <xsd:annotation>
-         <xsd:documentation>"Definition: This element is the equivalent of the instantiation element, but used
+         <xsd:documentation>"Definition: The pbcoreInstantiation element is the equivalent of the instantiation element, but used
             for the expression of an instantiation record at the root of an XML document. This is
             most commonly used when referenced from other schemas, or if you want to create and
             express a single, stand-alone instantiation."</xsd:documentation>
@@ -59,14 +59,14 @@
    <!-- the pbcoreCollectionType -->
    <xsd:complexType name="pbcoreCollectionType">
       <xsd:annotation>
-         <xsd:documentation>"Definition: The pbcoreCollectionType allows the addition of attributes that
+         <xsd:documentation>"The pbcoreCollectionType schema type allows the addition of attributes that
             describe the PBCoreCollection. The attributes define the title, the description, the
             source, the reference and the date of the collection."</xsd:documentation>
       </xsd:annotation>
       <xsd:sequence>
          <xsd:element maxOccurs="unbounded" minOccurs="1" ref="pbcoreDescriptionDocument">
             <xsd:annotation>
-               <xsd:documentation xml:lang="en">"Definition: The pbcoreDescriptionDocument assembles together
+               <xsd:documentation xml:lang="en">"Definition: The pbcoreDescriptionDocument element assembles together
                   all of PBCore knowledge items into a single data record organized in a
                   hierarchical structure. For PBCore these knowledge items are metadata descriptions
                   of media, including all the knowledge items and metadata terms and values
@@ -76,14 +76,14 @@
       </xsd:sequence>
       <xsd:attribute name="collectionTitle" type="xsd:string">
          <xsd:annotation>
-            <xsd:documentation xml:lang="en">"Definition: A title or label for the group of individual
+            <xsd:documentation xml:lang="en">"Definition: The collectionTitle attribute is a title or label for the group of individual
                serialized XML records contained within one pbcoreCollection
                element."</xsd:documentation>
          </xsd:annotation>
       </xsd:attribute>
       <xsd:attribute name="collectionDescription" type="xsd:string">
          <xsd:annotation>
-            <xsd:documentation xml:lang="en">"Definition: A description group of individual serialized XML
+            <xsd:documentation xml:lang="en">"Definition: The collectionDescription attribute is description group of individual serialized XML
                records contained within one pbcoreCollection element."</xsd:documentation>
          </xsd:annotation>
       </xsd:attribute>
@@ -96,14 +96,14 @@
       </xsd:attribute>
       <xsd:attribute name="collectionRef" type="xsd:string">
          <xsd:annotation>
-            <xsd:documentation xml:lang="en">"Definition: A URL for the source organization, application, or
+            <xsd:documentation xml:lang="en">"Definition: the collectionRef attribute provides a URL for the source organization, application, or
                individual for a group of XML records contained within a pbcoreCollection
                element."</xsd:documentation>
          </xsd:annotation>
       </xsd:attribute>
       <xsd:attribute name="collectionDate" type="xsd:string">
          <xsd:annotation>
-            <xsd:documentation xml:lang="en">"Definition: Date of creation for a pbcoreCollection XML
+            <xsd:documentation xml:lang="en">"Definition: the collectionDate attribute provides the date of creation for a pbcoreCollection XML
                document."</xsd:documentation>
          </xsd:annotation>
       </xsd:attribute>
@@ -113,7 +113,7 @@
    <!-- pbcoreDescriptionDocumentType -->
    <xsd:complexType name="pbcoreDescriptionDocumentType">
       <xsd:annotation>
-         <xsd:documentation>"Definition: The defining of the DescriptionDocument allows its use as a single
+         <xsd:documentation>"Definition: The pbcoreDescriptionDocumentType schema type allows its use as a single
             asset or repeated use in the pbcoreCollection."</xsd:documentation>
       </xsd:annotation>
       <xsd:sequence>
@@ -121,7 +121,7 @@
          <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcoreAssetType"
             type="sourceVersionStringType">
             <xsd:annotation>
-               <xsd:documentation xml:lang="en">"Definition: A broad definition of the type of intellectual
+               <xsd:documentation xml:lang="en">"Definition: The pbcoreAssetType element is a broad definition of the type of intellectual
                   content being described. Asset types might include those without associated
                   instantiations (a collection or series), or those with instantiations (programs,
                   episodes, clips, etc.)" </xsd:documentation>
@@ -132,7 +132,7 @@
          <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcoreAssetDate"
             type="dateStringType">
             <xsd:annotation>
-               <xsd:documentation xml:lang="en">"Definition: The pbcoreAssetDate is intended to reflect dates
+               <xsd:documentation xml:lang="en">"Definition: The pbcoreAssetDate element is intended to reflect dates
                   associated with the Intellectual Content."</xsd:documentation>
                <xsd:documentation xml:lang="en">"Best practice: By contrast, instantiationDate is intended to reflect date information for the specific instance. For instance, if you have a VHS copy of Gone With The Wind, the pbcoreAssetDate would be 1939, while the instantiationDate of the VHS copy could be 1985. pbcoreAssetDate may also be used to reflect availability dates, etc. Date types should be specified using the @dateType attribute.  Dates or time-based events related to the content of the asset, on the other hand, would be described in the 'coverage' element -- so, while the storyline of Gone with the Wind takes place in the nineteenth century, this information should be noted in the Coverage field, not the assetDate field.  Best practice is to use ISO 8601 or some other date/time standard if possible."</xsd:documentation>
             </xsd:annotation>
@@ -142,17 +142,17 @@
          <xsd:element maxOccurs="unbounded" minOccurs="1" name="pbcoreIdentifier"
             type="requiredSourceVersionStringType">
             <xsd:annotation>
-               <xsd:documentation xml:lang="en">"Definition: An identifier that can apply to the asset. This
+               <xsd:documentation xml:lang="en">"Definition: the pbcoreIdentifier element provides an identifier that can apply to the asset. This
                   identifier should not be limited to a specific instantiation, but rather is shared by or common to all instantiations of an asset. It can also hold a URL or URI that points to the
                   asset."</xsd:documentation>
-               <xsd:documentation xml:lang="en">"Best practice: Best practice is to identify the asset by means of a string or number corresponding to an established or formal identification system if one exists. Otherwise, use an identification method that is in use within your agency, station, production company, office, or institution."</xsd:documentation>
+               <xsd:documentation xml:lang="en">"Best practice: Identify the asset by means of a string or number corresponding to an established or formal identification system if one exists. Otherwise, use an identification method that is in use within your agency, station, production company, office, or institution."</xsd:documentation>
             </xsd:annotation>
          </xsd:element>
          <!-- the pbcore title - this element may occur as many times as
                       desired, optionally, a titleType attribute may appear -->
          <xsd:element maxOccurs="unbounded" minOccurs="1" name="pbcoreTitle" type="titleStringType">
             <xsd:annotation>
-               <xsd:documentation xml:lang="en">"Definition: The pbcoreTitle is a name or label relevant to the
+               <xsd:documentation xml:lang="en">"Definition: The pbcoreTitle element is a name or label relevant to the
                   asset."</xsd:documentation>
                <xsd:documentation xml:lang="en">"Best practice: There may be many types of titles an asset may have, such as a series title, episode title, segment title, or project title; therefore the element is repeatable."</xsd:documentation>
             </xsd:annotation>
@@ -162,7 +162,7 @@
          <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcoreSubject"
             type="subjectStringType">
             <xsd:annotation>
-               <xsd:documentation xml:lang="en">"Definition: The pbcoreSubject is used to assign topic headings
+               <xsd:documentation xml:lang="en">"Definition: The pbcoreSubject element is used to assign topic headings
                   or keywords that portray the intellectual content of the asset. A subject is
                   expressed by keywords, key phrases, or even specific classification codes.
                   Controlled vocabularies, authorities, formal classification codes, as well as
@@ -189,7 +189,7 @@
          <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcoreGenre"
             type="sourceVersionStartEndStringType">
             <xsd:annotation>
-               <xsd:documentation xml:lang="en">"Definition: This element describes the Genre of the asset,
+               <xsd:documentation xml:lang="en">"Definition: The pbcoreGenre element describes the Genre of the asset,
                   which can be defined as a categorical description informed by the topical nature
                   or a particular style or form of the content."</xsd:documentation>
                <xsd:documentation xml:lang="en">"Best practice: Genre refers to the intellectual content of the asset, whereas the element Asset Type defines a broader structural category; i.e. an asset might have the Asset Type of Segment, with a Genre of News, together defining a news segment."</xsd:documentation>
@@ -199,7 +199,7 @@
             desired. -->
          <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcoreRelation">
             <xsd:annotation>
-               <xsd:documentation>"Definition: This element contains the pbcoreRelationType and
+               <xsd:documentation>"Definition: The pbcoreRelation element contains the pbcoreRelationType and
                   pbcoreRelationIdentifier elements. In order to properly use these two elements
                   they must be nested with the pbcoreRelation element, and pbcoreRelation must
                   contain both pbcoreRelationType and pbcoreRelationIdentifier if it is
@@ -210,7 +210,7 @@
                   <xsd:element maxOccurs="1" minOccurs="1" name="pbcoreRelationType"
                      type="sourceVersionStringType">
                      <xsd:annotation>
-                        <xsd:documentation xml:lang="en">"Definition: This element describes the relationship
+                        <xsd:documentation xml:lang="en">"Definition: The pbcoreRelationType element describes the relationship
                            between the asset being describe by the pbcore document and any other
                            asset. Ideally it would contain text from a controlled vocabulary for
                            describing relationships. There is some depth to what a relationship
@@ -223,7 +223,7 @@
                   <xsd:element maxOccurs="1" minOccurs="1" name="pbcoreRelationIdentifier"
                      type="sourceVersionStringType">
                      <xsd:annotation>
-                        <xsd:documentation xml:lang="en">"Definition: This element contains the identifier of
+                        <xsd:documentation xml:lang="en">"Definition: The pbcoreRelationIdentifier element contains the identifier of
                            the related asset. In the case that the related asset has a PBCore
                            record, this identifier should correspond with the pbcoreIdentifier of
                            the related asset. However, it is possible to use this element with a
@@ -284,7 +284,7 @@
          <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcoreAudienceLevel"
             type="sourceVersionStringType">
             <xsd:annotation>
-               <xsd:documentation xml:lang="en">"Definition: The element pbcoreAudienceLevel identifies a type
+               <xsd:documentation xml:lang="en">"Definition: The pbcoreAudienceLevel element identifies a type
                   of audience, viewer, or listener for whom the media item is primarily designed or
                   educationally useful."</xsd:documentation>
             </xsd:annotation>
@@ -294,7 +294,7 @@
          <xsd:element maxOccurs="unbounded" minOccurs="0" name="pbcoreAudienceRating"
             type="sourceVersionStringType">
             <xsd:annotation>
-               <xsd:documentation xml:lang="en">"Definition: The element pbcoreAudienceRating designates the
+               <xsd:documentation xml:lang="en">"Definition: The pbcoreAudienceRating element designates the
                   type of users for whom the intellectual content of a media item is intended or
                   judged appropriate. This element differs from the element pbcoreAudienceLevel in
                   that it utilizes standard ratings that have been crafted by the broadcast
@@ -315,10 +315,11 @@
                   <xsd:element maxOccurs="1" minOccurs="1" name="creator"
                      type="affiliatedStringType">
                      <xsd:annotation>
-                        <xsd:documentation xml:lang="en">"Definition: The element creator identifies the primary
+                        <xsd:documentation xml:lang="en">"Definition: The creator element identifies the primary
                            person, people, or organization(s) responsible for creating the asset.
                            Note that non-primary names and roles should be included within the
-                           pbcoreContributor container." </xsd:documentation>
+                           pbcoreContributor container.
+                           Best practice: We recommend providing a consistent internal standard for entering proper names and organizational names, such as 'Lastname, Middlename, Firstname,' or " </xsd:documentation>
                      </xsd:annotation>
                   </xsd:element>
                   <xsd:element maxOccurs="unbounded" minOccurs="0" name="creatorRole"
@@ -352,7 +353,8 @@
                            person, people, or organization that has made substantial creative
                            contributions to the asset. This contribution is considered to be
                            secondary to the primary author(s) (person or organization) identified in
-                           the descriptor creator."</xsd:documentation>
+                           the descriptor creator. 
+                           Best practice: We recommend using a consistent scheme internally to allow for searching and sorting, such as Lastname, Firstname, Middlename, or "</xsd:documentation>
                      </xsd:annotation>
                   </xsd:element>
                   <xsd:element maxOccurs="unbounded" minOccurs="0" name="contributorRole"
