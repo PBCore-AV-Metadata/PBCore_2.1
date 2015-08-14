@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OBJID="WWCO_1234567_Somebody_Stop_Us_01" TYPE="video_object_source">
+    <mets:metsHdr CREATEDATE="2014-04-23T17:56:59-04:00">
+        <mets:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+            <mets:name>Safe Sound Archive</mets:name>
+        </mets:agent>
+        <mets:agent ROLE="PRESERVATION" TYPE="ORGANIZATION">
+            <mets:name>McHale University</mets:name>
+        </mets:agent>
+    </mets:metsHdr>
+    <mets:dmdSec ID="dmd1">
+        <mets:mdWrap MDTYPE="DC">
+            <mets:xmlData>
+                <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <dc:title>Somebody_Stop_Us xx/xx/1969 : Source Video Recording, no. 1</dc:title>
+                    <dc:date>1969</dc:date>
+                    <dc:identifier>WWCO_1234567_Somebody_Stop_Us_01</dc:identifier>
+                    <dc:type>MovingImage</dc:type>
+                </oai_dc:dc>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:amdSec ID="amd1">
+        <mets:techMD ID="techmd1">
+            <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="PBCore">
+                <mets:xmlData>
+                    <pbcore:pbcoreInstantiationDocument xmlns:pbcore="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html http://www.pbcore.org/xsd/pbcore-2.1.xsd">
+                        <!-- Master -->
+                        <pbcore:instantiationIdentifier source="George Blood Audio Video Film" annotation="File Name">1a_01.mxf</pbcore:instantiationIdentifier>
+                        <pbcore:instantiationIdentifier source="George Blood Audio Video Film 04/14/2014" annotation="messageDigest" version="MD5">b0470acd36ab09c2cd0e86ac7237c62d</pbcore:instantiationIdentifier>
+                        <pbcore:instantiationDate>-11-05 15:</pbcore:instantiationDate>
+                        <pbcore:instantiationDimensions unitsOfMeasure="Pixels">720x486</pbcore:instantiationDimensions>
+                        <pbcore:instantiationDigital>OP-1a</pbcore:instantiationDigital>
+                        <pbcore:instantiationStandard>MXF</pbcore:instantiationStandard>
+                        <pbcore:instantiationLocation>McHale University</pbcore:instantiationLocation>
+                        <pbcore:instantiationMediaType>Moving Image</pbcore:instantiationMediaType>
+                        <pbcore:instantiationGenerations>Master</pbcore:instantiationGenerations>
+                        <pbcore:instantiationFileSize unitsOfMeasure="GiB">19.48</pbcore:instantiationFileSize>
+                        <pbcore:instantiationDuration>00:28:08</pbcore:instantiationDuration>
+                        <pbcore:instantiationColors>color</pbcore:instantiationColors>
+                        <pbcore:instantiationTracks>1 video track; 1 audio tracks</pbcore:instantiationTracks>
+                        <pbcore:instantiationChannelConfiguration>mono; Ch1</pbcore:instantiationChannelConfiguration>
+                        <pbcore:instantiationLanguage source="ISO 639.2">eng</pbcore:instantiationLanguage>
+                        <pbcore:instantiationEssenceTrack>
+                            <pbcore:essenceTrackType>Video</pbcore:essenceTrackType>
+                            <pbcore:essenceTrackEncoding>JPEG 2000/MXF</pbcore:essenceTrackEncoding>
+                            <pbcore:essenceTrackDataRate unitsOfMeasure="Bits">96.8</pbcore:essenceTrackDataRate>
+                            <pbcore:essenceTrackFrameRate unitsOfMeasure="fps">59.940</pbcore:essenceTrackFrameRate>
+                            <pbcore:essenceTrackPlaybackSpeed unitsOfMeasure="fps">59.940</pbcore:essenceTrackPlaybackSpeed>
+                            <pbcore:essenceTrackBitDepth>10</pbcore:essenceTrackBitDepth>
+                            <pbcore:essenceTrackAspectRatio>4:3</pbcore:essenceTrackAspectRatio>
+                            <pbcore:essenceTrackAnnotation>Data Compression: Lossless</pbcore:essenceTrackAnnotation>
+                            <pbcore:essenceTrackAnnotation>Color Space: YUV</pbcore:essenceTrackAnnotation>
+                        </pbcore:instantiationEssenceTrack>
+                        <pbcore:instantiationEssenceTrack>
+                            <pbcore:essenceTrackType>Audio</pbcore:essenceTrackType>
+                            <pbcore:essenceTrackStandard>PCM</pbcore:essenceTrackStandard>
+                            <pbcore:essenceTrackDataRate unitsOfMeasure="kHz">48.0</pbcore:essenceTrackDataRate>
+                            <pbcore:essenceTrackBitDepth>24</pbcore:essenceTrackBitDepth>
+                        </pbcore:instantiationEssenceTrack>
+                        <pbcore:instantiationRelation>
+                            <pbcore:instantiationRelationType source="PBCore relationType">Derived from</pbcore:instantiationRelationType>
+                            <pbcore:instantiationRelationIdentifier annotation="Object Identifier">1a</pbcore:instantiationRelationIdentifier>
+                        </pbcore:instantiationRelation>
+                        <pbcore:instantiationAnnotation annotationType="Creating Application">OpenCube Server </pbcore:instantiationAnnotation>
+                        <pbcore:instantiationAnnotation annotationType="Source Deck">Sony_BVU-950; 11236</pbcore:instantiationAnnotation>
+                        <pbcore:instantiationAnnotation annotationType="Digitizer">AJA_FS1; 102078</pbcore:instantiationAnnotation>
+                        <pbcore:instantiationAnnotation annotationType="Time Base Corrector">BuiltIn_BuiltIn; 0000</pbcore:instantiationAnnotation>
+                    </pbcore:pbcoreInstantiationDocument>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+        <mets:techMD ID="techmd2">
+            <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="PBCore">
+                <mets:xmlData>
+                    <pbcore:pbcoreInstantiationDocument xmlns:pbcore="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html http://www.pbcore.org/xsd/pbcore-2.0.xsd">
+                        <!-- Service -->
+                        <pbcore:instantiationIdentifier source="George Blood Audio Video Film" annotation="File Name">1a_01.mp4</pbcore:instantiationIdentifier>
+                        <pbcore:instantiationIdentifier source="George Blood Audio Video Film 04/14/2014" annotation="messageDigest" version="MD5">b0470acd36ab09c2cd0e86ac7237c62d</pbcore:instantiationIdentifier>
+                        <pbcore:instantiationDate>-11-05 15:</pbcore:instantiationDate>
+                        <pbcore:instantiationDimensions unitsOfMeasure="pixels">720x486</pbcore:instantiationDimensions>
+                        <pbcore:instantiationDigital>QuickTime</pbcore:instantiationDigital>
+                        <pbcore:instantiationStandard>MPEG-4</pbcore:instantiationStandard>
+                        <pbcore:instantiationLocation>McHale University</pbcore:instantiationLocation>
+                        <pbcore:instantiationMediaType>Moving Image</pbcore:instantiationMediaType>
+                        <pbcore:instantiationGenerations>Service</pbcore:instantiationGenerations>
+                        <pbcore:instantiationFileSize unitsOfMeasure="MiB">551.8</pbcore:instantiationFileSize>
+                        <pbcore:instantiationDuration>00:28:08</pbcore:instantiationDuration>
+                        <pbcore:instantiationColors>color</pbcore:instantiationColors>
+                        <pbcore:instantiationTracks>1 video track; 1 audio tracks</pbcore:instantiationTracks>
+                        <pbcore:instantiationChannelConfiguration>mono; Ch1</pbcore:instantiationChannelConfiguration>
+                        <pbcore:instantiationLanguage source="ISO 639.2">eng</pbcore:instantiationLanguage>
+                        <pbcore:instantiationEssenceTrack>
+                            <pbcore:essenceTrackType>Video</pbcore:essenceTrackType>
+                            <pbcore:essenceTrackEncoding>avc1/MPEG-4</pbcore:essenceTrackEncoding>
+                            <pbcore:essenceTrackDataRate unitsOfMeasure="Kbps">2540</pbcore:essenceTrackDataRate>
+                            <pbcore:essenceTrackFrameRate unitsOfMeasure="fps">59.940</pbcore:essenceTrackFrameRate>
+                            <pbcore:essenceTrackPlaybackSpeed unitsOfMeasure="fps">29.970</pbcore:essenceTrackPlaybackSpeed>
+                            <pbcore:essenceTrackBitDepth>8</pbcore:essenceTrackBitDepth>
+                            <pbcore:essenceTrackAspectRatio>4:3</pbcore:essenceTrackAspectRatio>
+                            <pbcore:essenceTrackAnnotation>Color Space: YUV</pbcore:essenceTrackAnnotation>
+                        </pbcore:instantiationEssenceTrack>
+                        <pbcore:instantiationEssenceTrack>
+                            <pbcore:essenceTrackType>Audio</pbcore:essenceTrackType>
+                            <pbcore:essenceTrackStandard>AAC</pbcore:essenceTrackStandard>
+                            <pbcore:essenceTrackDataRate unitsOfMeasure="kHz">48.0</pbcore:essenceTrackDataRate>
+                            <pbcore:essenceTrackBitDepth/>
+                        </pbcore:instantiationEssenceTrack>
+                        <pbcore:instantiationRelation>
+                            <pbcore:instantiationRelationType source="PBCore relationType">Derived from</pbcore:instantiationRelationType>
+                            <pbcore:instantiationRelationIdentifier annotation="File Name">1a_01.mxf</pbcore:instantiationRelationIdentifier>
+                        </pbcore:instantiationRelation>
+                        <pbcore:instantiationAnnotation annotationType="Creating Application">ffmpeg 1.2.2</pbcore:instantiationAnnotation>
+                    </pbcore:pbcoreInstantiationDocument>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:techMD>
+        <mets:sourceMD ID="smd1">
+            <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="PBCore">
+                <mets:xmlData>
+                    <pbcore:pbcoreInstantiationDocument xmlns:pbcore="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html http://www.pbcore.org/xsd/pbcore-2.0.xsd">
+                        <!-- Physical Asset -->
+                        <pbcore:instantiationIdentifier source="CUGSJ" annotation="Object Identifier">1a</pbcore:instantiationIdentifier>
+                        <pbcore:instantiationDate dateType="Date Created">xx/xx/1969</pbcore:instantiationDate>
+                        <pbcore:instantiationPhysical>U-matic</pbcore:instantiationPhysical>
+                        <pbcore:instantiationStandard>NTSC</pbcore:instantiationStandard>
+                        <pbcore:instantiationLocation>McHale University</pbcore:instantiationLocation>
+                        <pbcore:instantiationMediaType>Moving Image</pbcore:instantiationMediaType>
+                        <pbcore:instantiationGenerations>Original</pbcore:instantiationGenerations>
+                        <pbcore:instantiationDuration>00:28:08</pbcore:instantiationDuration>
+                        <pbcore:instantiationColors>color</pbcore:instantiationColors>
+                        <pbcore:instantiationTracks>1 video track; 1 audio tracks</pbcore:instantiationTracks>
+                        <pbcore:instantiationChannelConfiguration>mono; Ch1</pbcore:instantiationChannelConfiguration>
+                        <pbcore:instantiationLanguage source="ISO 639.2">eng</pbcore:instantiationLanguage>
+                        <pbcore:instantiationEssenceTrack>
+                            <pbcore:essenceTrackType>Video</pbcore:essenceTrackType>
+                            <pbcore:essenceTrackFrameRate unitsOfMeasure="fps">29.97</pbcore:essenceTrackFrameRate>
+                            <pbcore:essenceTrackPlaybackSpeed unitsOfMeasure="fps">29.97</pbcore:essenceTrackPlaybackSpeed>
+                            <pbcore:essenceTrackAspectRatio>4:3</pbcore:essenceTrackAspectRatio>
+                        </pbcore:instantiationEssenceTrack>
+                        <pbcore:instantiationEssenceTrack>
+                            <pbcore:essenceTrackType>Audio</pbcore:essenceTrackType>
+                            <pbcore:essenceTrackPlaybackSpeed unitsOfMeasure="ips"/>
+                        </pbcore:instantiationEssenceTrack>
+                        <pbcore:instantiationAnnotation annotationType="Stock Manufacturer">Unknown</pbcore:instantiationAnnotation>
+                    </pbcore:pbcoreInstantiationDocument>
+                </mets:xmlData>
+            </mets:mdWrap>
+        </mets:sourceMD>
+    </mets:amdSec>
+    <mets:fileSec>
+        <mets:fileGrp ID="fg1" USE="master">
+            <mets:file ID="fid1" CHECKSUM="42dd8a68e58dac907a6d8dc9fca755e6" CHECKSUMTYPE="MD5" MIMETYPE="video/mxf" ADMID="techmd1">
+                <mets:FLocat LOCTYPE="OTHER" xlink:href="/WWCO_1234567_Somebody_Stop_Us/Master/WWCO_1234567_Somebody_Stop_Us_01_m.mxf"/>
+            </mets:file>
+        </mets:fileGrp>
+        <mets:fileGrp ID="fg2" USE="service">
+            <mets:file ID="fid2" CHECKSUM="b0470acd36ab09c2cd0e86ac7237c62d" CHECKSUMTYPE="MD5" MIMETYPE="video/quicktime" ADMID="techmd2">
+                <mets:FLocat LOCTYPE="OTHER" xlink:href="/WWCO_1234567_Somebody_Stop_Us/Service/WWCO_1234567_Somebody_Stop_Us_01_s.mp4"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap ID="strctmap1" TYPE="physical">
+        <mets:div ADMID="smd1" DMDID="dmd1" ID="div1" TYPE="video_object_source" LABEL="Somebody_Stop_Us xx/xx/1969 : Source Video Recording, no. 1">
+            <mets:div ID="div1.1" TYPE="face" LABEL="Somebody_Stop_Us xx/xx/1969 : Source Video Recording, no. 1, Face 01" ORDER="1">
+                <mets:fptr FILEID="fid1"/>
+                <mets:fptr FILEID="fid2"/>
+            </mets:div>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
