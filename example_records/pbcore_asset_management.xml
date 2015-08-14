@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is an example of a PBCore file that can be used in an asset management system
+to track the location and provenance of digital files in a repository, as well as the 
+location of the physical object from which the files were derived. -->
+
+<pbcoreCollection xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html http://pbcore.org/xsd/pbcore-2.1.xsd">
+    <pbcoreDescriptionDocument>
+        <pbcoreAssetType>Media Object</pbcoreAssetType>
+        <pbcoreAssetDate dateType="DateCreated">1996-08-25</pbcoreAssetDate>
+        <pbcoreIdentifier source="MCU" annotation="Object Identifier">MCU_a0999</pbcoreIdentifier>
+        <pbcoreTitle titleType="Main or Supplied Title">Sounds From Black Vibrations Alley</pbcoreTitle>
+        <pbcoreDescription descriptionType="Summary" descriptionTypeSource="http://metadataregistry.org/concept/list/vocabulary_id/139.html">An audio reel containing rehearsal tapes from a band living in a haunted house</pbcoreDescription>
+        <pbcoreInstantiation>
+            <!-- Physical Asset -->
+            <instantiationIdentifier source="MCU" annotation="Object Identifier">MCU_a0999</instantiationIdentifier>
+            <instantiationDate dateType="DateCreated">Unknown</instantiationDate>
+            <instantiationPhysical>1/4 inch audio tape</instantiationPhysical>
+            <instantiationLocation>
+            McHale University Libraries
+            Becker Graduate Library Special Collections
+            2574 E. University St.
+            Shelf: V4_0245_0999
+            </instantiationLocation>
+            <instantiationMediaType>Sound</instantiationMediaType>
+            <instantiationGenerations>Master</instantiationGenerations>
+            <instantiationDuration>00:59:14</instantiationDuration>
+            <instantiationLanguage source="ISO 639.2">eng</instantiationLanguage>
+        </pbcoreInstantiation>
+        <pbcoreInstantiation>
+            <!-- Preservation Master -->
+            <instantiationIdentifier source="George Blood Audio Video Film" annotation="File Name">MCU_a0999_m.wav</instantiationIdentifier>
+            <instantiationIdentifier source="George Blood Audio Video Film 2014-08-22" annotation="messageDigest" version="MD5">323ce5c158ff48653f37ad0169557855</instantiationIdentifier>
+            <instantiationDate>2014-06-08</instantiationDate>
+            <instantiationDigital>audio/vnd.wave</instantiationDigital>
+            <instantiationStandard>Linear PCM Audio</instantiationStandard>
+            <instantiationLocation>http://drm.lib.mcu.edu/bglsp/0245/0999a_m.wav</instantiationLocation>
+            <instantiationMediaType>Sound</instantiationMediaType>
+            <instantiationGenerations>Preservation Master</instantiationGenerations>
+            <instantiationDuration>00:59:14</instantiationDuration>
+            <instantiationTracks>2 audio tracks</instantiationTracks>
+            <instantiationChannelConfiguration>Stereo; Ch1, Ch2</instantiationChannelConfiguration>
+            <instantiationLanguage source="ISO 639.2">eng</instantiationLanguage>
+            <instantiationRelation>
+                        <instantiationRelationType source="PBCore relationType">Derived from</instantiationRelationType>
+                        <instantiationRelationIdentifier annotation="Object Identifier">MCU_a0999</instantiationRelationIdentifier>
+            </instantiationRelation>
+        </pbcoreInstantiation>
+        <pbcoreInstantiation>
+            <!-- Access Copy -->
+            <instantiationIdentifier source="George Blood Audio Video Film" annotation="File Name">MCU_a0999.mp3</instantiationIdentifier>
+            <instantiationIdentifier source="George Blood Audio Video Film 2014-08-22" annotation="messageDigest" version="MD5">98efce95e6319c144f85dc3172f0400b</instantiationIdentifier>
+            <instantiationDate>2014-06-08</instantiationDate>
+            <instantiationDigital>audio/mpeg</instantiationDigital>
+            <instantiationLocation>http://drm.lib.mcu.edu/bglsp/0245/0999a.mp3</instantiationLocation>
+            <instantiationMediaType>Sound</instantiationMediaType>
+            <instantiationGenerations>Access Copy</instantiationGenerations>
+            <instantiationDuration>00:59:14</instantiationDuration>
+            <instantiationTracks>2 audio tracks</instantiationTracks>
+            <instantiationChannelConfiguration>Stereo; Ch1, Ch2</instantiationChannelConfiguration>
+            <instantiationLanguage source="ISO 639.2">eng</instantiationLanguage>
+            <instantiationRelation>
+                        <instantiationRelationType source="PBCore relationType">Derived from</instantiationRelationType>
+                        <instantiationRelationIdentifier annotation="Object Identifier">MCU_a0999_m.wav</instantiationRelationIdentifier>
+            </instantiationRelation>
+        </pbcoreInstantiation>
+    </pbcoreDescriptionDocument>
+</pbcoreCollection>
