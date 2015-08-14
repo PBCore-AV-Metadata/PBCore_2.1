@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pbcoreCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html http://pbcore.org/xsd/pbcore-2.1.xsd"
+  xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html"
+  collectionTitle="WILL World War II Oral History Project on WILL from Illinois Public Media"
+  collectionDescription="A collection of records from WILL World War II Oral History Project on WILL"
+  collectionSource="Illinois Public Media, University of Illinois at Urbana-Champaign"
+  collectionRef="http://will.illinois.edu/wwii/pbcorecollection"
+  collectionDate="2014-10-16T19:18:20-05:00">
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2008-07-01T12:02:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">james-stallmeyer-2008-07-01</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview with James Stallmeyer</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract"></pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Stallmeyer, James</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">james_stallmeyer_2008&#45;07&#45;01.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-14T16:01:45-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/james_stallmeyer_2008&amp;#45;07&amp;#45;01.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>48:46</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2008-03-20T17:20:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">georgemyers2008-03-20</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: George Myers of Springfield</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">lst</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pacific theatre</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">George Myers grew up in Hoopeston on a family farm with his widowed mom. He enrolled in the U of I to major in agriculture, thinking he could learn something to make the farm more successful. Myers served on an LST in the Pacific from 1944 to 1946. He didn&amp;rsquo;t get shot at, but he recalls being scared. &amp;ldquo;I still remember the full moon on the water and how it seemed like we were visible to everybody, but we couldn&amp;rsquo;t see a thing,&amp;rdquo; he said. Myers has been president of the national LST Association. Of the some 100 men on his ship, only about 7 are left.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Myers, George</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">georgemyers2008&#45;03&#45;20.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-08T16:44:12-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/georgemyers2008&amp;#45;03&amp;#45;20.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>1:02:13</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+ 
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2008-03-20T12:06:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">jimfisher2008-03-20</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Jim Fisher of Springfield</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media" subjectTypeAnnotation="collected via crowdsourcing">navy</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">lst</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">new britain</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">leyte</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">south pacific</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">philippines</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">borneo</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">new guinea</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">kamikaze</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">lct</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pacific theatre</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Jim Fisher served in the U.S. Navy on Landing Ship Tank 475. He fought in the battles of New Britain, Leyte Gulf, Lingayen Gulf and others in the South Pacific, Philippines, Borneo and New Guinea.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Fisher, Jim</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">jimfisher2008&#45;03&#45;20.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-14T16:18:38-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/jimfisher2008&amp;#45;03&amp;#45;20.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>49:48</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2008-03-19T17:16:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">davidfreeman2008-03-19</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: David Freeman</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Race/Ethnicity</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">uss missouri</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">navy</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">tuskegee</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">african americans at war</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pacific theatre</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Oral history interview with WWII veteran David Freeman</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Freeman, David</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">davidfreeman2008&#45;03&#45;19.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-08T16:10:33-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/davidfreeman2008&amp;#45;03&amp;#45;19.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>15:56</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2008-03-14T12:03:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">jessedowell2008-03-14</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Jesse Dowell of Champaign</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">navy</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">radar</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">japan</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">submarines</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">land mines</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">anawetok</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">poison gas</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">atom bomb</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">bikini atoll</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pacific theatre</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">the atomic age</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pvy catalina</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Jesse Dowell volunteered to join the U.S. Navy Air Corps, serving from August 1944 to August 1947. He trained for the invasion of Japan, going to school double time to be prepared as soon as possible. He completed bombing practice with a new secret radar bombsite, which could bomb for the first time at night in total darkness. The surrender of Japan made the invasion unnecessary.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Dowell, Jesse</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">jessedowell2008&#45;03&#45;14.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-14T16:04:42-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/jessedowell2008&amp;#45;03&amp;#45;14.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>22:33</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+
+  
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2008-03-11T12:51:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">georgeboyd2008-03-11</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: George Boyd of Urbana</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">Community</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">family</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">victory gardens</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">rationing</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">uss indianapolis</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">war bonds</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">the homefront</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">George Boyd was 7 years old and living in Urbana when Pearl Harbor was attacked. His homefront memories of the war years are sharp and reflect much of what children living in this country experienced. He did the things children did, playing and going to movies and helping with liberty gardens. He gives a good picture of life in middle America where everyone was involved in some way in the war effort. At the same time he heard adults talk and radio reports and knew when neighbors or family members were hurt or had died in battles. Children of this period in our history were changed by what was happening and in some ways were adults well before they might have been if the war had not happened.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Boyd, George</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">georgeboyd2008&#45;03&#45;11.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-08T16:37:08-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/georgeboyd2008&amp;#45;03&amp;#45;11.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>1:02:04</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2008-03-07T16:48:00-06:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">alicelain2008-03-07</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Alice Lain of Urbana</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">Gender issues</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Mental Health</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">navy</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">radar</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">waves</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">mercer field</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">women in uniform</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Alice Lain served in the WAVES Women&amp;rsquo;s Navy Reserves from June 1944 to March 1946. She installed radar in the torpedo bomber Avenger and the Wildcat fighter.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Lain, Alice</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">alicelain2008&#45;03&#45;07.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-09-10T15:34:00-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/alicelain2008&amp;#45;03&amp;#45;07.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>35:45</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2008-03-07T12:48:00-06:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">eugenehouser12008-03-07</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Eugene Houser of Farmer City</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">army</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">mediterranean</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">north african and european theatres</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Eugene Houser served as clerk typist in an Army Replacement Battalion in the Mediterranean Theater. From 1944 to 1946, he worked in a unit that processed incoming replacement troops and cut orders for troops being discharged. He says he didn&amp;rsquo;t do anything heroic, but like all Americans, he was deeply involved in the war effort. He left his father who had some physical handicaps to run the family farm because, as he puts it, he couldn&amp;rsquo;t have faced himself if he hadn&amp;rsquo;t gone into the Army when called. His story reflects those of many of the behind&#45;the&#45;line soldiers. His great respect for all who served is obvious throughout his interview. Houser talks about the men he met during these years. Years after the war, he and several other veterans collected stories of veterans, men and women, from the Farmer City, Ill., area into a book they titled &amp;ldquo;Their Roles Remembered.&amp;rdquo;</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Houser, Eugene</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">eugenehouser12008&#45;03&#45;07.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-08T16:28:08-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/eugenehouser12008&amp;#45;03&amp;#45;07.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>45:45</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2008-02-20T12:08:00-06:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">jimhull2008-02-20</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Jim Hull of Urbana</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">army</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">argonne forest</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">normandy</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">battle of the bulge</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">dwight d. eisenhower</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">elbe river</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">patton</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">north african and european theatres</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Jim Hull served all over Europe in many of the major campaigns. He was in the Army for about three years, serving with the artillery in places like the Argonne Forest and Normandy. His artillery group followed the troops in on the beaches on D Day and went with Patton through France. Hull was in the Battle of the Bulge and talks about the bitterness of the cold 7 degree temperatures. He shows samples of the K rations that soldiers ate&amp;mdash;small boxes containing a canned dinner or a breakfast/lunch combination, and cigarettes. Hull shares the letter all soldiers received from Gen. Dwight Eisenhower before they hit the beaches. At the time, he said, he and his buddies were so ready to go that he didn&amp;rsquo;t think much of it, but reading it after surviving the war and looking back, he realizes how much that letter meant. His group was the only one to hold a bridge over the Elbe River, a bridge they called the Truman Bridge. His group served as part of the Army of Occupation when the battles ended.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Hull, Jim</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">jimhull2008&#45;02&#45;20.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-14T16:23:49-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/jimhull2008&amp;#45;02&amp;#45;20.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>29:48</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2008-02-07T17:07:00-06:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">charlesdukes2008-02-07</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Charles Dukes of Georgetown</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">army</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">cherbourg peninsula</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">belgium</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">holland</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">germany</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pows</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">north african and european theatres</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Charles Dukes enlisted in the Army in October, 1943, during his sophomore year at Indiana University. He was shipped overseas 80 days after D&#45;day, entering battle in the Cherbourg Peninsula. He fought through Belgium, Holland and Germany. Dukes was captured Nov. 23, 1944, spending six months in Runddorf, a labor camp near the Czech border. He escaped several different times, finally making it to the Elbe River where Americans were being exchanged one&#45;for&#45;one for Russians.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Dukes, Charles</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">charlesdukes2008&#45;02&#45;07.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-09-17T14:19:43-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/charlesdukes2008&amp;#45;02&amp;#45;07.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>1:44:53</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2008-01-30T09:49:00-06:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">johnphilipdziuk2008-01-30</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Philip John Dziuk of Homer</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">Government</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">National Security</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">navy</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">radar</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">sonar</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">uss ajax</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">atom bomb</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pacific theatre</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">When Phil Dziuk was an 18 year old farm boy, he qualified for an eleven month long Navy electronic technician training program, in June 1944. His education in a two year practical program in the School of Agriculture at the University of Minnesota and experience milking cows was a far cry from repair, maintenance and servicing radar, sonar, receivers, transmitters and other electronic gear. He struggled through the program at Herzl college in Chicago, Great Lakes, Treasure Island, California. He served on the USS Ajax, a repair ship that went to Hawaii, the atom bomb test site in Bikini and later served at the transmitter station in Lualualei, Hawaii. Discharged , August 4,1946, he was welcomed back to Foley, Minnesota and immediately began work in the harvest fields, on August 5. He later took advantage of the GI Bill and taught at the University of Illinois for more than 37 years.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Dziuk, John Philip</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">johnphilipdziuk2008&#45;01&#45;30.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-14T16:39:33-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/johnphilipdziuk2008&amp;#45;01&amp;#45;30.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>1:34:23</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-11-16T11:56:00-06:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">harryreed2007-11-16</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Harry Reed of Danville</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">Foreign Policy&#45;U.S.</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">secret service</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">eleanor roosevelt</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">president of the united states</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">yalta conference</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pottsdam</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">fdr</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">air force</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">north african and european theatres</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">During World War II, Harry Reed was a flight engineer on a plane that was the equivalent of today&amp;rsquo;s Air Force II. His plane carrying Secret Service members flew about 20 minutes in front of the plane carrying the President and landed in time to give the Secret Service people adequate time to secure the area for the President and other dignitaries. His assignments included flying Eleanor Roosevelt after FDR died (The President&amp;rsquo;s body was moved by train). Reed&amp;rsquo;s plane flew the President and others to vital meetings at places like Yalta and Pottsdam, as well as making a flight to South America that gave the U.S. options for a possible new way to reach Japan by air. The plane also broke the round trip speed record to Paris. Harry Reed will tell you that is proud that he was able to serve his country and that he sees himself as being very lucky to have gotten the assignments he did.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Reed, Harry</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">harryreed2007&#45;11&#45;16.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-08T16:53:09-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/harryreed2007&amp;#45;11&amp;#45;16.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>33:22</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-11-14T12:12:00-06:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">josephhamburg2007-11-14</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Joseph Hamburg of Urbana</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">draft</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">infantry</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">utah beach</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">france</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">radio</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">north african and european theatres</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Joseph Hamburg served in the Army infantry in Europe, participating in the Normandy campaign and the battle for the city of Brest in the Brittany region of France. He also served in the army of occupation in France and Belgium.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Hamburg, Joseph</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">josephhamburg2007&#45;11&#45;14.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-14T16:47:48-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/josephhamburg2007&amp;#45;11&amp;#45;14.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>1:01:30</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-11-11T16:45:00-06:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">alexandersamaras2007-11-07</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Alexander Samaras of Danville</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">navy</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">utah beach</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">d&#45;day</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">lst</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">submarines</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">okinawa</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">kamikaze</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">philippines</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pacific theatre</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">the homefront</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Alexander Samaras was the commanding officer of an LCT in the Navy, and fought at Utah Beach on D&#45;Day. He and his men worked to ferry in troops and equipment, and then later on to ferry out the dead and prisoners. His LCT also carried in crucial equipment used to set up communications for both Omaha and Utah Beach. He joined his LCT in New Orleans, and the LCT was taken across the Atlantic on a larger LST. As a junior officer, he had to take his turn standing watch on the LST. During rough weather one night while he was on watch, three of the ships in his convoy were struck by torpedoes and blown up. That same night, his LST was hit by a torpedo, but it was dud. The entire hold of his LST, the length of a football field, was filled with ammunition. The torpedo put a dent in the stern. &amp;ldquo;It made me a fatalist,&amp;rdquo; he says.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Samaras, Alexander</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">alexandersamaras2007&#45;11&#45;07.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-09-10T15:31:43-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/alexandersamaras2007&amp;#45;11&amp;#45;07.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>1:01:55</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-11-08T17:23:00-06:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">halefrancisburge2007-11-08</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Hale Burge of Hoopeston</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Technology</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">air force</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">draft</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">aleutian islands</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">b&#45;24</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">shemya</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">kiska</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">atomic bomb</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pacific theatre</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">the atomic age</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Hale Burge started his career in the Air Force (then the Army Air Force) when he was drafted into World War II as a teenager in rural Illinois. Like all inductees, he was tested in a lot of areas in order to best match his skills to the job he would be assigned. For him, that meant that he would be working on planes. Burge served in the Aleutian Island chain, frequently taking parts from a number of broken planes in order to create single plane that could be safely put back in the air. He saw terrible crashes and talks about the loss of life. Planes from these northern Pacific islands bombed Japan and other sites. America&amp;rsquo;s presence in the area prevented invasion of Alaska and gave the enemy another area to worry about and to have to spread their forces out more. Burge, a man who lived through the dark Depression years, also talks about involvement in the war as positively affecting this country.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Burge, Hale</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">halefrancisburge2007&#45;11&#45;08.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-08T16:49:54-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/halefrancisburge2007&amp;#45;11&amp;#45;08.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>1:00:12</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-11-08T12:44:00-06:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">edlayton2007-11-08</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Edward Layden of Hoopeston</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">army</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">hoopeston, illinois</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pows</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">germany</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">the homefront</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Ed Layden went into the Army before World War II, but suffered an injury and was discharged before the U.S. went to war. He returned home, and worked on the family farm. Once the war started, it was very hard to find workers to help with farm work, and many farmers worried that it wouldn&amp;rsquo;t be possible to get their crops harvested before they spoiled in the fields. The program in which German POWs helped out as laborers on their farms proved to be very helpful. Layden worked with 20 German prisoners from the German POW camp in Hoopeston harvesting sweet corn. The prisoners were picked up at the canning factory in his dad&amp;rsquo;s truck and brought to his farm. They enjoyed being out in the country, where his mother would make them sandwiches, cookies and chocolate milk.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Layden, Ed</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">edlayton2007&#45;11&#45;08.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-08T16:24:35-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/edlayton2007&amp;#45;11&amp;#45;08.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>43:21</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-11-08T11:54:00-06:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">haroldcox2007-11-08</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Harold Cox of Hoopeston</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">army</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">rheinland</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pows</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">north african and european theatres</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Harold Cox served in the Army from April 1944 to September 1945. He fought in the Rhineland Campaigns in Europe.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Cox, Harold</contributor></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">haroldcox2007&#45;11&#45;08.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-08T16:51:28-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/haroldcox2007&amp;#45;11&amp;#45;08.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>38:20</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+
+  
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-10-30T16:41:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">alberthelregel2007-10-30</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Albert Helregel of Loda</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">guadalcanal</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">bougainville</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pacific theatre</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">malaria</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">australia</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">infantry</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Albert Helregel served in the Army Artillery from March 1941 to June 1945. The No. 1 man on a gun crew of a 105 mm Howitzer, he was involved in the battles of Guadalcanal and Bougainville.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Helregel, Albert</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor><pbcoreContributor><contributor>Williamson, H.F.</contributor><contributorRole>interviewer</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">alberthelregel2007&#45;10&#45;30.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-09-03T15:17:55-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/alberthelregel2007&amp;#45;10&amp;#45;30.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>45:59</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-10-24T12:49:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">francesschneider2007-10-24</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Frances Schneider of Champaign</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">morse code</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">army air corps</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">radio</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">enola gay</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">racial discrimination</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">the homefront</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">the atomic age</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Frances Schneider was a civilian instructor during World War II, teaching Morse Code to enlisted men at Scott Field in Belleville, Ill. Her late husband, Jack Schneider, was a section chief in the Army Air Corps. He was the radio operator in connection with the Enola Gay on its flight to Japan. Schneider was having fun at a skating rink when the shocking announcement of the bombing of Pearl Harbor was made over the loud speaker. She remembers vividly how life changed. Two of her brothers were already in the service. Her other brother enlisted in January after the attack. Frances talks about how her family learned what her brothers (and later her husband) were doing and where they were. Wanting to contribute something to the war effort, Schneider left her position as office manager in a mail order house in Chicago and took tests to study at a radio school in Chicago. That led to her assignment at Scott Field teaching Morse Code to men who would serve as radio operators as well as gunners on B&#45;17s. Her memories paint a poignant picture of the times. She talks about students who left the school as boys and returned as war&#45;weary men, of discrimination issues for blacks, and of the courage of families who faced losses and carried on. She talks about the funny, sometimes sad, human events that also occurred during the war. Her story weaves together the lives of those who served abroad with those who remained in this country.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Schneider, Frances</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">francesschneider2007&#45;10&#45;24.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-08T16:34:47-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/francesschneider2007&amp;#45;10&amp;#45;24.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>1:07:32</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-10-16T17:14:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">danvillewwiiprogram2007-10-16</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Danville Residents Remember World War II</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">Community</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">ken burns</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pows</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">veterans</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">north african and european theatres</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">the homefront</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Seventy&#45;five people attended a community conversation October 16, 2007 at the Danville Public Library in Danville, IL featuring stories from eight Danville&#45;area residents. Speaking were John Saint who enlisted in the Air Force in 1942 and was a POW in Germany; Bill Kannapel, who cared for wounded soldiers as a doctor; Helen Montgomery, who served in the Medical and Identification division of the American Women&amp;rsquo;s Voluntary Service; Charlie Dukes, who was a POW in Germany and Russia; Joe McCormick, who was a translator who worked with the French Underground; Milt Crippin, who landed on Utah Beach on D&#45;Day and &amp;ldquo;Sparky&amp;rdquo; Songer who was a POW in Germany during the Battle of the Bulge. The event was co&#45;sponsored by WILL AM&#45;FM&#45;TV and the Danville Public Library. The panel and audience discussion were moderated by Mary Coffman of the Danville Area Community College. The Danville Public Library has been videotaping oral histories of local residents. Some of those residents, John Sant, Bill Kannapel, Helen Montgomery, Gerald Sooley and Charlie Dukes, share their stories with Mary Coffman, retired humanities professor from Danville Area Community College.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">Community</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Saint, John</contributor><contributorRole>panelist</contributorRole></pbcoreContributor><pbcoreContributor><contributor>Kannapel, Bill</contributor><contributorRole>panelist</contributorRole></pbcoreContributor><pbcoreContributor><contributor>Montgomery, Helen</contributor><contributorRole>panelist</contributorRole></pbcoreContributor><pbcoreContributor><contributor>Dukes, Charles</contributor><contributorRole>panelist</contributorRole></pbcoreContributor><pbcoreContributor><contributor>Crippin, Milt</contributor><contributorRole>panelist</contributorRole></pbcoreContributor><pbcoreContributor><contributor>Songer, &quot;Sparky&quot;</contributor><contributorRole>panelist</contributorRole></pbcoreContributor><pbcoreContributor><contributor>Coffman, Mary</contributor><contributorRole>moderator</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">danvillewwiiprogram2007&#45;10&#45;16.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-09-17T15:19:20-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/danvillewwiiprogram2007&amp;#45;10&amp;#45;16.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>1:51:21</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-10-09T16:59:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">bobspitze2007-10-09</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Bob Spitze of Urbana</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">navy</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">lst</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">iwo jima</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">okinawa</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">marshall plan</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pacific theatre</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">philippines</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">japan</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Bob Spitze joined the Navy at age 21 after going through ROTC training in college. Soon after going through the Navy training program, he came back home and got married, only to then be shipped off to war. He was aboard an LST, which was a transport ship that often carried military vehicles like tanks and jeeps, or military personnel. Many of these ships were manufactured in Seneca, Ill., where the crews and officers would get aboard and travel down the Illinois and Mississippi Rivers, out to the ocean. This is exactly what Spitze did. While in the Pacific, he participated in the occupation of both Iwo Jima and Okinawa, two small Japanese islands. At Iwo Jima, Spitze says, he was witness to the great tragedy of the battle, and the final American victory when soldiers raised the American flag. For Spitze, World War II brought attention to the fact that we live in a global community. Now an economics professor at the U of I, he recognizes that the war was a result of certain global and national economic systems that allowed greed and the hunger for power to take hold of both economic markets and governments. But Spitze believes that we can ultimately recognize the importance of our global community and live at peace with one another. He and his wife have been educators ever since World War II, participating in educational efforts, not only in the U.S., but also in European countries during the reconstruction phase that followed the devastation brought about by the war.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Spitze, Bob</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">bobspitze2007&#45;10&#45;09.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-09-17T14:15:16-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/bobspitze2007&amp;#45;10&amp;#45;09.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>1:08:13</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+  
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-09-24T11:51:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">charlesbruns2007-09-24</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Charles Bruns of Champaign</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Human Rights</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">3rd infantry division</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">north african and european theatres</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">italy</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">germany</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">bergesgarten</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">dachau</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">photography</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">army</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">audie murphy</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">submarines</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">sicily</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">siegfried line</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Charles Bruns served as an engineer in the 3rd Infantry Division in Africa, Sicily, Italy and other locations in Europe.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Bruns, Charles</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">charlesbruns2007&#45;09&#45;24.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-09-17T14:12:53-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/charlesbruns2007&amp;#45;09&amp;#45;24.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>1:53:40</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-09-11T17:21:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">geraldyaxley2007-09-11</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Gerald Yaxley of Champaign</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">army</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">infantry</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">siegfried line</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pillboxes</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">germany</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">north african and european theatres</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Gerald Yaxley served in the Army in Europe with the 4th Mechanized Reconnaissance Regiment and the 104th Infantry Division.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Yaxley, Gerald</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">geraldyaxley2007&#45;09&#45;11.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-08T16:46:55-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/geraldyaxley2007&amp;#45;09&amp;#45;11.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>1:29:45</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-09-06T12:46:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">earlswanson2007-09-07</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Earl Swanson of Urbana</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">rotc</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">infantry</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">philippines</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pacific theatre</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">the atomic age</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Earl R. Swanson was a farm boy from East Lynn, Ill., when he enrolled in Advanced ROTC as a freshman at the University of Illinois in 1939. Upon graduation in 1943, he trained with the 592nd Field Artillery Battalion attached to the 106th Infantry in Camp Atterbury, Ind. When the 106th was being deployed to Europe, they had a surplus of F.A. officers, so Swanson was sent to infantry school in Camp Blanding, Fla. In July of 1945, he became a replacement officer in Cannon Company of the 161st Regiment of the 25th Division, the &amp;ldquo;Tropic Lightning&amp;rdquo; Division, in the Philippines. Their mission was to &amp;ldquo;clean up&amp;rdquo; in the Philippines and prepare for the invasion of Japan. After Japan&amp;rsquo;s surrender, Capt. Swanson served in the occupation of Japan until returning to the States in May 1946. He remained in the reserves, and served his country again in Washington, D.C., during the Korean War, 1952&#45;53.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Swanson, Earl</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">earlswanson2007&#45;09&#45;07.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-08T16:18:30-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/earlswanson2007&amp;#45;09&amp;#45;07.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>1:19:38</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+
+  
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-09-05T17:11:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">clarenceberbaum2007-09-05</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Clarence Berbaum of Champaign</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Human Rights</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">army</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">infantry</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">radio</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">tanks</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">division signal company</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">maginot line</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">germany</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">dachau</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">concentration camps</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">morse code</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">north african and european theatres</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">Clarence Berbaum was drafted into the U.S. Army in February of 1942. He served in Europe with the 100th infantry, famous for being the only fighting unit ever to capture the Voges Mountains in France. Berbaum served as a radio repairman, usually a few miles behind the front lines. His prior experience in radio repair, he explains, saved him from having to fight in the front lines and probably saved his life. He also took video footage of day&#45;to&#45;day life in the Army. Berbaum talks about the overwhelming feeling of depression that affected him and many others throughout the war. He also talks about the dehumanizing effect that war has on soldiers.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Berbaum, Clarence</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">clarenceberbaum2007&#45;09&#45;05.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-09-30T16:59:23-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/clarenceberbaum2007&amp;#45;09&amp;#45;05.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>53:22</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+ 
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-08-30T12:10:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">johnfrothingham2007-08-30</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: John Frothingham of Savoy</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">marines</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">guadalcanal</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">new georgia</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">iwo jima</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">australia</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">pacific theatre</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">John Frothingham served in the U.S. Marine Corps during World War II. He was commissioned in December 1940 and participated in the battles of Guadalcanal, New Georgia and Iwo Jima.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Frothingham, John</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">johnfrothingham2007&#45;08&#45;30.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-14T16:30:13-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/johnfrothingham2007&amp;#45;08&amp;#45;30.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>59:17</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+
+  
+<pbcoreDescriptionDocument>
+  <pbcoreAssetType>Item</pbcoreAssetType> 
+  <pbcoreAssetDate dateType="broadcast">2007-08-23T17:18:00-05:00</pbcoreAssetDate>
+  <pbcoreIdentifier source="Illinois Public Media">delbertaugsberger2007-07-23</pbcoreIdentifier>
+  <pbcoreTitle titleType="Program">World War II Central Illinois Stories</pbcoreTitle>  
+  <pbcoreTitle titleType="Episode">Oral History Interview: Delbert Augsburger of Flanagan</pbcoreTitle>
+  <pbcoreSubject subjectType="topic" source="Illinois Public Media">History</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Military</pbcoreSubject><pbcoreSubject subjectType="topic" source="Illinois Public Media">Religion</pbcoreSubject>
+  <pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">air force</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">b&#45;17</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">germany</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">mennonite</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">conscientious objector</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">gunnery school</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">b&#45;24</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">battle of the bulge</pbcoreSubject><pbcoreSubject subjectType="folksonomy" source="Illinois Public Media">north african and european theatres</pbcoreSubject>
+  <pbcoreDescription descriptionType="Abstract">It was Delbert Augsburger&amp;rsquo;s boyhood dream to fly planes&amp;mdash;and part of his dream came true when be became a crew member on an Army Air Force B&#45;17 Flying Fortress during the latter half of World War II. Augsburger didn&amp;rsquo;t fly the plane&amp;mdash;he was a ball turret gunner, defending his plane from enemy fire during bombing missions over Germany. Augsburger talks about his experiences&amp;mdash;and why his pacifist Mennonite background didn&amp;rsquo;t stop him from enlisting.</pbcoreDescription>
+  <pbcoreGenre source="PBCore Genre list">History</pbcoreGenre>
+  <pbcoreCreator><creator>Brighton, Jack</creator><creatorRole>web producer</creatorRole></pbcoreCreator>
+  <pbcoreContributor><contributor>Augsberger, Delbert</contributor><contributorRole>interviewee</contributorRole></pbcoreContributor>
+
+<pbcoreInstantiation>
+<instantiationIdentifier source="Illinois Public Media">delbertaugsberger2007&#45;07&#45;23.mp3</instantiationIdentifier>
+  <instantiationDate dateType="published">2014-10-08T16:14:00-05:00</instantiationDate>
+  <instantiationDigital>audio/mpeg3</instantiationDigital>
+  <instantiationLocation>http://will.illinois.edu/nfs/delbertaugsberger2007&amp;#45;07&amp;#45;23.mp3</instantiationLocation>  
+  <instantiationMediaType>Sound</instantiationMediaType>
+  <instantiationGenerations>Copy</instantiationGenerations>
+  <instantiationDuration>56:51</instantiationDuration>
+</pbcoreInstantiation>
+</pbcoreDescriptionDocument>
+
+</pbcoreCollection>
