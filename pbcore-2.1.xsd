@@ -956,7 +956,6 @@
 +                  <xsd:documentation>Definition: The partType attribute is used to indicate the nature of the part into which the asset has been divided.</xsd:documentation>
                 </xsd:annotation>
 -            </xsd:attribute>
-+            </xsd:attribute>
 +            <xsd:attribute name="partTypeSource" type="xsd:string">
 +               <xsd:annotation>
 +                  <xsd:documentation>Definition: The partTypeSource attribute provides the name of the authority
