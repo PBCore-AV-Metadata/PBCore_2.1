@@ -55,6 +55,13 @@ Several PBCore elements include attributes -- specifically, the @titleType attri
 @subjectTypeVersion </br>
 @subjectTypeAnnotation </br>
 
+**for pbcorePart:** </br>
+@partType </br>
+@partTypeSource </br>
+@partTypeRef </br>
+@partTypeVersion </br>
+@partTypeAnnotation </br>
+
 **for creator, contributor and publisher:** </br>
 @affiliationSource </br>
 @affiliationRef </br>
@@ -62,6 +69,17 @@ Several PBCore elements include attributes -- specifically, the @titleType attri
 @affiliationAnnotation </br>
 
 In PBCore 2.0, the element essenceTrackBitDepth did not include the option to add a @unitofMeasure attribute. PBcore 2.1 now includes this optional attribute.
+
+In PBCore 2.0, the elements instantiationLanguage and essenceTrackLanguage are not repeatable.  This required that if an instantiation or essence track contains multiple languages, both of them would have to be entered in the same data field as three-letter language codes separated by a semicolon, e.g.
+	
+	<instantiationLanguage>eng;fre</instantiationLanguage>.  
+	
+While this form of entering data is still valid, we have made those fields repeatable in 2.1 to allow for the option of entering language information separately, e.g. 
+
+	<instantiationLanguage>eng</instantiationLanguage>
+	<instantiationLanguage>fre</instantiationLanguage>
+	
+This allows for more specificity and searchability in entering metadata.  
 
 In order to provide more flexibility in accommodating local metadata elements and values (e.g. from an in-house database), the requirement to use extensionAuthorityUsed when using the container extensionWrap has been removed. However, we still highly recommend using this element whenever possible to document the source system or schema of the element.
 
