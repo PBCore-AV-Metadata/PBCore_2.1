@@ -953,12 +953,9 @@
                 </xsd:attributeGroup>
                 <xsd:attribute name="partType" type="xsd:string">
                 <xsd:annotation>
--                  <xsd:documentation>"Definition: The group of attributes "source', 'ref', 'version' and
--                     'annotation' could be used when a there is a multipart asset and notation is
--                     important. </xsd:documentation>
 +                  <xsd:documentation>Definition: The partType attribute is used to indicate the nature of the part into which the asset has been divided.</xsd:documentation>
                 </xsd:annotation>
--            </xsd:attributeGroup>
+-            </xsd:attribute>
 +            </xsd:attribute>
 +            <xsd:attribute name="partTypeSource" type="xsd:string">
 +               <xsd:annotation>
