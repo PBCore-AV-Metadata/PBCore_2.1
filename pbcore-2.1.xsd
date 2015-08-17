@@ -83,13 +83,13 @@
       </xsd:attribute>
       <xsd:attribute name="collectionDescription" type="xsd:string">
          <xsd:annotation>
-            <xsd:documentation xml:lang="en">"Definition: The collectionDescription attribute is description group of individual serialized XML
+            <xsd:documentation xml:lang="en">"Definition: The collectionDescription attribute is a description group of individual serialized XML
                records contained within one pbcoreCollection element."</xsd:documentation>
          </xsd:annotation>
       </xsd:attribute>
       <xsd:attribute name="collectionSource" type="xsd:string">
          <xsd:annotation>
-            <xsd:documentation xml:lang="en">"Definition: The source organization, application, or individual
+            <xsd:documentation xml:lang="en">"Definition: The collectionSource attribute indicates an organization, application, or individual
                for group of individual XML records contained within a pbcoreCollection
                element."</xsd:documentation>
          </xsd:annotation>
