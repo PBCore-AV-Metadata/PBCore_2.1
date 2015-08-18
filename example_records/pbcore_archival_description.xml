@@ -4,7 +4,7 @@
 object in an Archival Description setting. A number of Intellectual Content
 and Intellectual Property elements are used to describe the object.  -->
 
-<pbcoreCollection xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html http://pbcore.org/xsd/pbcore-2.1.xsd">
+<pbcoreCollection xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd">
     <pbcoreDescriptionDocument>
         <pbcoreAssetType>Media Object</pbcoreAssetType>
         <pbcoreAssetDate dateType="DateCreated">2013-02-10</pbcoreAssetDate>
