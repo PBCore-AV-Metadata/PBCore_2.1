@@ -10,7 +10,7 @@ level using the <pbcoreExtension> element, and one where every premis object/eve
 <pbcoreInstantiation> using the <instantiationExtension> element, along with it's associated 
 Instantiation. This version (ver1) is the former. -->
 
-<pbcoreCollection xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html http://pbcore.org/xsd/pbcore-2.1.xsd">
+<pbcoreCollection xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd">
     <pbcoreDescriptionDocument>
         <pbcoreAssetType>Media Object</pbcoreAssetType>
         <pbcoreAssetDate dateType="DateCreated">1986-05-11</pbcoreAssetDate>
