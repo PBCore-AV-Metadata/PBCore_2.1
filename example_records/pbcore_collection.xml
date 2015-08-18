@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pbcoreCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html http://pbcore.org/xsd/pbcore-2.1.xsd"
+  xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd"
   xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html"
   collectionTitle="WILL World War II Oral History Project on WILL from Illinois Public Media"
   collectionDescription="A collection of records from WILL World War II Oral History Project on WILL"
