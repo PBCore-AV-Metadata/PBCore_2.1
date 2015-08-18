@@ -24,7 +24,7 @@
         <mets:techMD ID="techmd1">
             <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="PBCore">
                 <mets:xmlData>
-                    <pbcore:pbcoreInstantiationDocument xmlns:pbcore="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html http://www.pbcore.org/xsd/pbcore-2.1.xsd">
+                    <pbcore:pbcoreInstantiationDocument xmlns:pbcore="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html https://raw.githubusercontent.com/WGBH/PBCore_2.1/master/pbcore-2.1.xsd">
                         <!-- Master -->
                         <pbcore:instantiationIdentifier source="George Blood Audio Video Film" annotation="File Name">1a_01.mxf</pbcore:instantiationIdentifier>
                         <pbcore:instantiationIdentifier source="George Blood Audio Video Film 04/14/2014" annotation="messageDigest" version="MD5">b0470acd36ab09c2cd0e86ac7237c62d</pbcore:instantiationIdentifier>
