@@ -72,5 +72,5 @@ Logging into the EC2 instance using SSH requires access to the public/private ke
 ##### PBCore.org website administrators<a name="website-admins"></a>
 
   * Lauren Sorensen - **_TODO: ok to put your email here?_**
-  * Ryan Edge - **_TODO: ok to put your email here?_**
+  * Ryan Edge - ryan.n.edge@gmail.com
   * Rebecca Fraimow - rebecca_fraimow@wgbh.org
