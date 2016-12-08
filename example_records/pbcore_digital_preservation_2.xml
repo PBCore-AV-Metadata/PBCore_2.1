@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file is an example of a PBCore file that can be used to describe an 
+object in a Digital Preservation Setting. The PBCore describes an audio reel that has had two
+derivatives created from it. Every event has been logged with PREMIS. The reel was cleaned and
+migrated to a Preservation Master File. This Preservation Master file was compressed into 
+an MP3 Access Copy. Each of the files had a checksum created as well. There are two 
+versions of this PBCore document, one where every premis object/event is stored at the <pbcoreDescriptionDocument>
+level using the <pbcoreExtension> element, and one where every premis object/event is stored at the
+<pbcoreInstantiation> using the <instantiationExtension> element, along with it's associated 
+Instantiation. This version (ver2) is the latter. -->
+
+<pbcoreCollection xmlns="http://www.pbcore.org/PBCore/PBCoreNamespace.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pbcore.org/PBCore/PBCoreNamespace.html http://pbcore.org/xsd/pbcore-2.0.xsd">
+    <pbcoreDescriptionDocument>
+        <pbcoreAssetType>Media Object</pbcoreAssetType>
+        <pbcoreAssetDate dateType="DateCreated">1986-05-11</pbcoreAssetDate>
+        <pbcoreIdentifier source="MCU" annotation="Object Identifier">MCU_a1023</pbcoreIdentifier>
+        <pbcoreTitle titleType="Main or Supplied Title">The Marble Orchard</pbcoreTitle>
+        <pbcoreDescription descriptionType="Summary" descriptionTypeSource="http://metadataregistry.org/concept/list/vocabulary_id/139.html">Audio recordings of a graveyards from across the country</pbcoreDescription>
+        <pbcoreInstantiation>
+            <!-- Physical Asset -->
+            <instantiationIdentifier source="MCU" annotation="Object Identifier">MCU_a1023</instantiationIdentifier>
+            <instantiationDate dateType="DateCreated">Unknown</instantiationDate>
+            <instantiationPhysical>1/4 inch audio tape</instantiationPhysical>
+            <instantiationLocation>McHale University Libraries</instantiationLocation>
+            <instantiationMediaType>Sound</instantiationMediaType>
+            <instantiationGenerations>Master</instantiationGenerations>
+            <instantiationDuration>01:28:52</instantiationDuration>
+            <instantiationLanguage source="ISO 639.2">eng</instantiationLanguage>
+            <instantiationExtension>
+                <extensionEmbedded>
+                    <object xmlns="http://www.loc.gov/standards/premis/v1" type="representation">
+                        <objectIdentifier>
+                            <objectIdentifierType>McHale University Libraries GUID</objectIdentifierType>
+                            <objectIdentifierValue>mcul_cpb_a1023_01</objectIdentifierValue>
+                        </objectIdentifier>
+                    </object>
+                    <event xmlns="http://www.loc.gov/standards/premis/v1">
+                        <eventIdentifier>
+                            <eventIdentifierType>MCU event ID</eventIdentifierType>
+                            <eventIdentifierValue>12001</eventIdentifierValue>
+                        </eventIdentifier>
+                        <eventType>inspection</eventType>
+                        <eventDateTime>2014-08-18</eventDateTime>
+                        <linkingObjectIdentifier>
+                            <linkingObjectIdentifierType>McHale University Libraries GUID</linkingObjectIdentifierType>
+                            <linkingObjectIdentifierValue>mcul_cpb_a1023_01</linkingObjectIdentifierValue>
+                        </linkingObjectIdentifier>
+                    </event>
+                    <event xmlns="http://www.loc.gov/standards/premis/v1">
+                        <eventIdentifier>
+                            <eventIdentifierType>MCU event ID</eventIdentifierType>
+                            <eventIdentifierValue>12002</eventIdentifierValue>
+                        </eventIdentifier>
+                        <eventType>cleaned</eventType>
+                        <eventDateTime>2014-08-20</eventDateTime>
+                        <linkingObjectIdentifier>
+                            <linkingObjectIdentifierType>McHale University Libraries GUID</linkingObjectIdentifierType>
+                            <linkingObjectIdentifierValue>mcul_cpb_a1023_01</linkingObjectIdentifierValue>
+                        </linkingObjectIdentifier>
+                    </event>
+                    <event xmlns="http://www.loc.gov/standards/premis/v1">
+                        <eventIdentifier>
+                            <eventIdentifierType>MCU event ID</eventIdentifierType>
+                            <eventIdentifierValue>12003</eventIdentifierValue>
+                        </eventIdentifier>
+                        <eventType>migration</eventType>
+                        <eventDateTime>2014-08-22</eventDateTime>
+                        <linkingObjectIdentifier>
+                            <linkingObjectIdentifierType>McHale University Libraries GUID</linkingObjectIdentifierType>
+                            <linkingObjectIdentifierValue>mcul_cpb_a1023_01</linkingObjectIdentifierValue>
+                            </linkingObjectIdentifier>
+                    </event>
+                </extensionEmbedded>
+            </instantiationExtension>
+        </pbcoreInstantiation>
+        <pbcoreInstantiation>
+            <!-- Preservation Master -->
+            <instantiationIdentifier source="George Blood Audio Video Film" annotation="File Name">MCU_a1023_m.wav</instantiationIdentifier>
+            <instantiationIdentifier source="George Blood Audio Video Film 2014-08-22" annotation="messageDigest" version="MD5">323ce5c158ff48653f37ad0169557855</instantiationIdentifier>
+            <instantiationDate>2014-08-22</instantiationDate>
+            <instantiationDigital>audio/vnd.wave</instantiationDigital>
+            <instantiationStandard>Linear PCM Audio</instantiationStandard>
+            <instantiationLocation>McHale University Libraries</instantiationLocation>
+            <instantiationMediaType>Sound</instantiationMediaType>
+            <instantiationGenerations>Preservation Master</instantiationGenerations>
+            <instantiationTracks>2 audio tracks</instantiationTracks>
+            <instantiationChannelConfiguration>Stereo; Ch1, Ch2</instantiationChannelConfiguration>
+            <instantiationLanguage source="ISO 639.2">eng</instantiationLanguage>   
+            <instantiationExtension>
+                <extensionEmbedded>
+                    <object xmlns="http://www.loc.gov/standards/premis/v1" type="file">
+                        <objectIdentifier>
+                            <objectIdentifierType>McHale University Libraries GUID</objectIdentifierType>
+                            <objectIdentifierValue>MCU_a1023_m.wav</objectIdentifierValue>
+                        </objectIdentifier>
+                    </object>
+                    <event xmlns="http://www.loc.gov/standards/premis/v1">
+                        <eventIdentifier>
+                            <eventIdentifierType>MCU event ID</eventIdentifierType>
+                            <eventIdentifierValue>12004</eventIdentifierValue>
+                        </eventIdentifier>
+                        <eventType>message digest calculation</eventType>
+                        <eventDetail>program="md5"</eventDetail>
+                        <eventDateTime>2014-08-22</eventDateTime>
+                        <eventOutcomeDetail>323ce5c158ff48653f37ad0169557855</eventOutcomeDetail>
+                        <linkingObjectIdentifier>
+                            <linkingObjectIdentifierType>McHale University Libraries GUID</linkingObjectIdentifierType>
+                            <linkingObjectIdentifierValue>mcul_cpb_a1023_03</linkingObjectIdentifierValue>
+                            </linkingObjectIdentifier>
+                    </event>
+                    <event xmlns="http://www.loc.gov/standards/premis/v1">
+                        <eventIdentifier>
+                            <eventIdentifierType>MCU event ID</eventIdentifierType>
+                            <eventIdentifierValue>12005</eventIdentifierValue>
+                        </eventIdentifier>
+                        <eventType>compression</eventType>
+                        <eventDetail>program="libid3"</eventDetail>
+                        <eventDateTime>2014-08-22</eventDateTime>
+                        <linkingObjectIdentifier>
+                            <linkingObjectIdentifierType>McHale University Libraries GUID</linkingObjectIdentifierType>
+                            <linkingObjectIdentifierValue>MCU_a1023_m.wav</linkingObjectIdentifierValue>
+                            </linkingObjectIdentifier>
+                    </event>                
+                </extensionEmbedded>
+            </instantiationExtension>       
+        </pbcoreInstantiation>
+        <pbcoreInstantiation>
+            <!-- Access Copy -->
+            <instantiationIdentifier source="George Blood Audio Video Film" annotation="File Name">MCU_a1023.mp3</instantiationIdentifier>
+            <instantiationIdentifier source="George Blood Audio Video Film 2014-08-22" annotation="messageDigest" version="MD5">98efce95e6319c144f85dc3172f0400b</instantiationIdentifier>
+            <instantiationDate>2014-08-22</instantiationDate>
+            <instantiationDigital>audio/mpeg</instantiationDigital>
+            <instantiationLocation>McHale University Libraries</instantiationLocation>
+            <instantiationMediaType>Sound</instantiationMediaType>
+            <instantiationGenerations>Access Copy</instantiationGenerations>
+            <instantiationTracks>2 audio tracks</instantiationTracks>
+            <instantiationChannelConfiguration>Stereo; Ch1, Ch2</instantiationChannelConfiguration>
+            <instantiationLanguage source="ISO 639.2">eng</instantiationLanguage>
+            <instantiationExtension>
+                <extensionEmbedded>
+                    <object xmlns="http://www.loc.gov/standards/premis/v1" type="file">
+                        <objectIdentifier>
+                            <objectIdentifierType>McHale University Libraries GUID</objectIdentifierType>
+                            <objectIdentifierValue>MCU_a1023.mp3</objectIdentifierValue>
+                        </objectIdentifier>
+                    </object>
+                    <event xmlns="http://www.loc.gov/standards/premis/v1">
+                        <eventIdentifier>
+                            <eventIdentifierType>MCU event ID</eventIdentifierType>
+                            <eventIdentifierValue>12006</eventIdentifierValue>
+                        </eventIdentifier>
+                        <eventType>message digest calculation</eventType>
+                        <eventDetail>program="md5"</eventDetail>
+                        <eventDateTime>2014-08-22</eventDateTime>
+                        <eventOutcomeDetail>98efce95e6319c144f85dc3172f0400b</eventOutcomeDetail>
+                        <linkingObjectIdentifier>
+                            <linkingObjectIdentifierType>McHale University Libraries GUID</linkingObjectIdentifierType>
+                            <linkingObjectIdentifierValue>MCU_a1023.mp3</linkingObjectIdentifierValue>
+                            </linkingObjectIdentifier>
+                    </event>                
+                </extensionEmbedded>
+            </instantiationExtension>
+        </pbcoreInstantiation>
+    </pbcoreDescriptionDocument>
+</pbcoreCollection>
