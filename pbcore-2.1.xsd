@@ -762,7 +762,7 @@
                 maxOccurs="unbounded" minOccurs="0">
                 <xsd:annotation>
                     <xsd:documentation xml:lang="en">Definition: The instantiationLanguage element
-                        identifies the primary language of the tracks’ audio or text. Languages must
+                        identifies the primary language of the tracks' audio or text. Languages must
                         be indicated using 3-letter codes standardized in ISO 639-2 or 639-3. If an
                         instantiation includes more than one language, the element can be repeated.
                         Alternately, both languages can be expressed in one element by separating
